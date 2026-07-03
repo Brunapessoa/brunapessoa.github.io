@@ -1,6 +1,6 @@
 function PlanB() {
     return (
-        <h1>PROJETO PLAN B</h1>
+        <h1>LANDING PAGE PROJETO PLAN B</h1>
     )
 }
 

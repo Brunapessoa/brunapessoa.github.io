@@ -9,6 +9,7 @@ function App() {
 
 
   return (
+    <>  
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/projects/PlanB" element={<PlanB />}/>
@@ -16,6 +17,7 @@ function App() {
       <Route path="/projects/Weather" element={<Weather />}/>
       <Route path="/projects/TasksMng" element={<TasksMng />}/>
     </Routes>
+    </>
   )
 }
 

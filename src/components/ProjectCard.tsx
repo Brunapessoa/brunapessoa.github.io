@@ -11,17 +11,19 @@ type ProjectCardProps = {
 
 function ProjectCard({ projectImage, titleProject, description, processRoute, projectURL }: ProjectCardProps) {
     return (
-        <div>
+        <section>
             <img src={projectImage} alt="projectImage"/>
             <h3>{titleProject}</h3>
             <p>{description}</p>
-            <a href={projectURL} target="_blank" rel="noopener noreferrer">
-                <button>View Project</button>
-            </a>
-            <Link to={processRoute}>
-                <button>View Process</button>
-            </Link>
-        </div>
+            <div className="flex flex-row gap-2">
+                <a href={projectURL} target="_blank" rel="noopener noreferrer">
+                    <button className="px-2 py-1 border-2 border-orange-600">View Project</button>
+                </a>
+                <Link to={processRoute}>
+                    <button className="px-2 py-1 border-2 border-orange-600">View Process</button>
+                </Link>
+            </div>
+        </section>
     )
 }
 

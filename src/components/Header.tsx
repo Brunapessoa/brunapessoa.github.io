@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
+import { ThemeContext } from "../context/ThemeContext"
 
 function Header() {
 
@@ -21,6 +22,15 @@ function Header() {
 
     }, []
     )  
+
+    const contextData = useContext(ThemeContext)
+
+    if(!contextData) {
+        // Se o contexto não existir (porque não tem um Provider acima), não renderiza o Header. apenas seguranca para o TS, pq ThemeProvider está no main.tsx envolvendo tudo, o contextData nunca vai ser null.
+        return null
+    }
+
+    const { theme, toggleTheme } = contextData
 
     return (        
         <header className="flex flex-row justify-between p-5">
@@ -67,7 +77,7 @@ function Header() {
                     <button>EN</button>
                     <button>NL</button>
                 </div>
-                <button>Theme</button>
+                <button onClick={toggleTheme}>{theme}</button>
             </div>
         </header>
         

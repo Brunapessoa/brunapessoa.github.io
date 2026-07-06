@@ -1,1 +1,3 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+/* o variant dark: deve se aplicar quando o elemento ou algum ancestral tiver a classe dark */

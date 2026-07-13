@@ -34,7 +34,7 @@ function Header() {
     const { translations } = langContext
 
     return (        
-        <header className="flex flex-row justify-between p-5 top-0 sticky backdrop-blur-md border-b border-border bg-[#faf8f5cc] dark:bg-[#0e0a1ab0]">
+        <header className="flex flex-row justify-between p-5 top-0 sticky backdrop-blur-md border-b border-border bg-[#faf8f5cc] dark:bg-[#0e0a1ab0] z-50">
             <div className="flex flex-row items-center gap-5">
                 <h1>BP</h1>
                 {location.pathname === "/" && (

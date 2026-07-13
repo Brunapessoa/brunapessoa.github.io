@@ -3,13 +3,13 @@ import profilePhoto from "../assets/photo-1.jpg"
 function About() {
     return (
         <>
-        <section id="about" className="flex flex-col gap-5 py-20 px-15">
+        <section id="about" className="flex flex-col gap-8 py-20 px-15">
             <h2 className="flex items-baseline gap-5 section-title font-bold font-sans text-text-main text-2xl"><span className="text-accent text-sm font-mono font-bold">01</span>About me</h2>
             <h3 className="font-display text-accent text-3xl font-semibold">Who I am</h3>
             <p className="font-bold border-l-2 border-accent pl-5">
             I'm a Front-End Developer focused on building clean, responsive, and user-friendly applications while continuously learning and improving.
             </p>
-            <div className="self-center photo-glow w-55">
+            <div className="self-center photo-glow w-55 my-5">
                 <img src={profilePhoto} alt="Bruna Pessoa" className="rounded-2xl w-full"/>
             </div>
             <p>I'm Brazilian and have been living in Eindhoven since 2023.
@@ -23,7 +23,7 @@ function About() {
             <h3 className="font-display text-accent text-3xl font-semibold">My Journey into Software Development</h3>
             <p>After years working in the legal field, I decided it was time for a change. I wanted to work in a field where creativity and problem-solving could come together. 
             </p>
-            <div className="self-center photo-glow w-55">
+            <div className="self-center photo-glow w-55 my-5">
                 <img src={profilePhoto} alt="Bruna Pessoa" className="rounded-2xl w-full"/>
             </div>
             <p>

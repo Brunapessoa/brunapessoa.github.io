@@ -7,7 +7,7 @@ type ThemeContextType = {
 
 export const ThemeContext = createContext<ThemeContextType | null> (null) 
 // cria o contexto dizendo que o tipo dos dados vai ser ThemeContextType ou null
-// (null) — define o valor padrão como null, que é o que qualquer consumidor vai receber se não houver um Provider acima dele na árvore
+// (null) — define o valor padrão como null, que é o que qualquer componente vai receber se não houver um Provider acima dele na árvore
 
 
 function ThemeProvider({ children }: {children: React.ReactNode}) {

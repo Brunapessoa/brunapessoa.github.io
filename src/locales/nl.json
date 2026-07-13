@@ -1,0 +1,22 @@
+{
+    "about": "Over mij",
+    "projects": "Projecten",
+    "contact": "Contact",
+    
+    "hero": "Bruna Pessoa",
+    "descHero": "Softwareontwikkelaar",
+
+    "projectBtn": "Bekijk Project",
+    "processBtn": "Bekijk Proces",
+
+    "planBDesc": "Trainingsapp",
+
+    "recipeDesc": "Recepten zoekpagina via TheMealDB API",
+
+    "weatherDesc": "Weersapp met WeatherAPI en Unsplash",
+
+    "tasksDesc": "Taakbeheer app",
+
+    "contactH2": "Laten we praten?",
+    "contactP": "Neem contact op:"
+}

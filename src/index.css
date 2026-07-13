@@ -50,3 +50,30 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-border), transparent);
+}
+
+.photo-glow {
+  position: relative;
+}
+
+.photo-glow::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  background: var(--color-accent);
+  border-radius: 20px;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+.photo-glow img {
+  position: relative;
+  z-index: 1;
+}
+

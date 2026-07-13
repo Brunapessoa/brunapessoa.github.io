@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-    <div className="bg-bg-deep text-text-main bg-gradient-main">  
+    <div className="bg-bg-deep text-text-muted bg-gradient-main">  
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/projects/PlanB" element={<PlanB />}/>

@@ -1,0 +1,21 @@
+{
+    "about": "About me",
+    "projects": "Projects",
+    "contact": "Contact",
+    
+    "descHero": "Software Developer",
+
+    "projectBtn": "View Project",
+    "processBtn": "View Process",
+
+    "planBDesc": "Workout tracking app",
+
+    "recipeDesc": "Recipe search page powered by TheMealDB API",
+
+    "weatherDesc": "Weather forecast app using WeatherAPI and Unsplash",
+
+    "tasksDesc": "Task management app",
+
+    "contactH2": "Let's Talk?",
+    "contactP": "Contact me:"
+}

@@ -1,5 +1,8 @@
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
+import ThemeToggle from "./ThemeToggle"
+import LanguageToggle from "./LanguageToggle"
+import { LanguageContext } from "../context/LanguageContext"
 
 function Header() {
 
@@ -22,6 +25,14 @@ function Header() {
     }, []
     )  
 
+    const langContext = useContext(LanguageContext)
+
+    if(!langContext) {
+        return null
+    }
+
+    const { translations } = langContext
+
     return (        
         <header className="flex flex-row justify-between p-5">
             <div className="flex flex-row items-center gap-5">
@@ -33,13 +44,13 @@ function Header() {
                 {menuOpen && <nav className="lg:hidden">
                     <ul className="flex flex-col py-3 px-2">
                         <li onClick={() => setMenuOpen(false)} className="p-2">
-                            <a href="#about">About me</a>
+                            <a href="#about">{translations.about}</a>
                         </li>
                         <li onClick={() => setMenuOpen(false)} className="p-2">
-                            <a href="#projects">Projects</a>
+                            <a href="#projects">{translations.projects}</a>
                         </li>
                         <li onClick={() => setMenuOpen(false)} className="p-2">
-                            <a href="#contact">Contact</a>
+                            <a href="#contact">{translations.contact}</a>
                         </li>
                     </ul>
                 </nav>}
@@ -47,13 +58,13 @@ function Header() {
                 <nav className="hidden lg:flex " >
                     <ul className="flex flex-row px-2 gap-2 list-disc list-inside">
                         <li onClick={() => setMenuOpen(false)} className="p-2">
-                            <a href="#about">About me</a>
+                            <a href="#about">{translations.about}</a>
                         </li>
                         <li onClick={() => setMenuOpen(false)} className="p-2">
-                            <a href="#projects">Projects</a>
+                            <a href="#projects">{translations.projects}</a>
                         </li>
                         <li onClick={() => setMenuOpen(false)} className="p-2">
-                            <a href="#contact">Contact</a>
+                            <a href="#contact">{translations.contact}</a>
                         </li>
                     </ul>
                 </nav>              
@@ -61,13 +72,9 @@ function Header() {
             )} 
             </div>        
                 
-            <div className="flex flex-row gap-5" >
-                <div id="languages" className="flex gap-5">
-                    <button>PT</button>
-                    <button>EN</button>
-                    <button>NL</button>
-                </div>
-                <button>Theme</button>
+            <div id="languages" className="flex gap-5">
+                <LanguageToggle />         
+                <ThemeToggle />
             </div>
         </header>
         

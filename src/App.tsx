@@ -9,15 +9,15 @@ function App() {
 
 
   return (
-    <>  
-    <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="/projects/PlanB" element={<PlanB />}/>
-      <Route path="/projects/Recipes" element={<Recipes />}/>
-      <Route path="/projects/Weather" element={<Weather />}/>
-      <Route path="/projects/TasksMng" element={<TasksMng />}/>
-    </Routes>
-    </>
+    <div className="dark:bg-black dark:text-amber-50">  
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/projects/PlanB" element={<PlanB />}/>
+        <Route path="/projects/Recipes" element={<Recipes />}/>
+        <Route path="/projects/Weather" element={<Weather />}/>
+        <Route path="/projects/TasksMng" element={<TasksMng />}/>
+      </Routes>
+    </div>
   )
 }
 

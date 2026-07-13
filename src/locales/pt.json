@@ -1,0 +1,21 @@
+{
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "contact": "Contato",
+    
+    "descHero": "Desenvolvedora de Software",
+
+    "projectBtn": "Ver Projeto",
+    "processBtn": "Ver Processo",
+    
+    "planBDesc": "App de controle de treinos",
+
+    "recipeDesc": "Página de busca de receitas usando a API TheMealDB",
+
+    "weatherDesc": "App de previsão do tempo usando WeatherAPI e Unsplash",
+
+    "tasksDesc": "App de gerenciamento de tarefas",
+    
+    "contactH2": "Vamos conversar?",
+    "contactP": "Entre em contato:"
+}

@@ -33,14 +33,14 @@
 .bg-gradient-main {
   background: 
     radial-gradient(circle at 20% 33%, #7c5cff44 0%, transparent 15%), /*roxo */
-    radial-gradient(circle at 100% 10%, #fc5c5744 0%, transparent 20%), /*coral */
+    radial-gradient(circle at 75% 10%, #fc5c5744 0%, transparent 20%), /*coral */
     var(--color-bg-deep);
 }
 
 .dark .bg-gradient-main {
   background: 
     radial-gradient(circle at 20% 33%, #7c5cff44 0%, transparent 15%), /*roxo */
-    radial-gradient(circle at 100% 10%, #fc5c5744 0%, transparent 20%), /*coral */
+    radial-gradient(circle at 75% 10%, #fc5c5744 0%, transparent 20%), /*coral */
     var(--color-bg-deep);
 }
 

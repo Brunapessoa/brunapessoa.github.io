@@ -3,7 +3,7 @@ import profilePhoto from "../assets/photo-1.jpg"
 function About() {
     return (
         <>
-        <section id="about" className="flex flex-col gap-8 py-20 px-15">
+        <section id="about" className="flex flex-col gap-8 py-20 px-10">
             <h2 className="flex items-baseline gap-5 section-title font-bold font-sans text-text-main text-2xl"><span className="text-accent text-sm font-mono font-bold">01</span>About me</h2>
             <h3 className="font-display text-accent text-3xl font-semibold">Who I am</h3>
             <p className="font-bold border-l-2 border-accent pl-5">
@@ -36,9 +36,9 @@ function About() {
               <span className="bg-bg-card border border-border py-2 px-4 rounded-full my-2 mx-2 hover:border-accent hover:text-text-main">HTML5</span>
               <span className="bg-bg-card border border-border py-2 px-4 rounded-full my-2 mx-2 hover:border-accent hover:text-text-main">CSS3</span>
               <span className="bg-bg-card border border-border py-2 px-4 rounded-full my-2 mx-2 hover:border-accent hover:text-text-main">JavaScript</span>
-              <span className="bg-bg-card border border-border py-2 px-4 rounded-full my-2 mx-2 hover:border-accent hover:text-text-main">TypeScript</span>
               <span className="bg-bg-card border border-border py-2 px-4 rounded-full my-2 mx-2 hover:border-accent hover:text-text-main">React</span>
               <span className="bg-bg-card border border-border py-2 px-4 rounded-full my-2 mx-2 hover:border-accent hover:text-text-main">Tailwind</span>
+              <span className="bg-bg-card border border-border py-2 px-4 rounded-full my-2 mx-2 hover:border-accent hover:text-text-main">TypeScript</span>
               <span className="bg-bg-card border border-border py-2 px-4 rounded-full my-2 mx-2 hover:border-accent hover:text-text-main">Git | GitHub</span>
             </div>
         </section>

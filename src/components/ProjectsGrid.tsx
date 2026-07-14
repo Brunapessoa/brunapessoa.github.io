@@ -7,7 +7,7 @@ import todolistImg from "../assets/projects/todolist-react.png"
 function ProjectsGrid() {
     return (
     <>
-        <section id="projects" className="flex flex-col gap-8 py-20 px-15">
+        <section id="projects" className="flex flex-col gap-10 py-15 px-10">
             <h2 className="flex items-baseline gap-5 section-title font-bold font-sans text-text-main text-2xl"><span className="text-accent text-sm font-mono font-bold">02</span>Projects</h2>
 
             <ProjectCard titleProject="Plan B" description="Workout control App" projectImage={planBImg} processRoute="/projects/PlanB" projectURL="https://brunapessoa.github.io/b-plan-training/"/>

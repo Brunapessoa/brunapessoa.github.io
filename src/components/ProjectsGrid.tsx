@@ -1,8 +1,8 @@
 import ProjectCard from "./ProjectCard"
-import planBImg from "../assets/projects/plan-b-card.png";
-import recipeImg from "../assets/projects/recipes.png";
-import weatherImg from "../assets/projects/weatherly1.png";
-import todolistImg from "../assets/projects/todolist-react.png"
+import planBImg from "../assets/projects/planB/plan-b-card.png";
+import recipeImg from "../assets/projects/recipes/recipes.png";
+import weatherImg from "../assets/projects/weather/weatherly1.png";
+import todolistImg from "../assets/projects/todolist/todolist-react.png"
 
 function ProjectsGrid() {
     return (

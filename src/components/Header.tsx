@@ -41,7 +41,7 @@ function Header() {
                 {location.pathname === "/" && (
                 <>
                 <button onClick={(event) => {event.stopPropagation(); setMenuOpen(!menuOpen)}}
-                    className="border border-border rounded-lg p-1 lg:hidden"><Menu size={22} /></button>
+                    className="border border-border rounded-lg p-1 lg:hidden  hover:border-accent"><Menu size={22} /></button>
                 {menuOpen && <nav className="lg:hidden absolute top-full left-12 px-10 rounded-b-lg border border-border bg-bg-deep">
                     <ul className="flex flex-col py-3 px-2">
                         <li onClick={() => setMenuOpen(false)} className="p-2">

@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+
 
 
 type ProjectCardProps = {
@@ -11,17 +12,21 @@ type ProjectCardProps = {
 
 function ProjectCard({ projectImage, titleProject, description, processRoute, projectURL }: ProjectCardProps) {
     return (
-        <section>
-            <img src={projectImage} alt="projectImage"/>
-            <h3>{titleProject}</h3>
-            <p>{description}</p>
-            <div className="flex flex-row gap-2">
-                <a href={projectURL} target="_blank" rel="noopener noreferrer">
-                    <button className="px-2 py-1 border-2 border-orange-600">View Project</button>
-                </a>
-                <Link to={processRoute}>
-                    <button className="px-2 py-1 border-2 border-orange-600">View Process</button>
-                </Link>
+        <section className="relative h-65 w-full overflow-hidden rounded-2xl border border-border hover:border-accent group lg:h-full">
+            <img src={projectImage} alt="projectImage" className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"/>
+            <div className="absolute inset-0 bg-linear-to-t from-black/90 to-transparent"/>
+            <div className="absolute bottom-0 left-1 p-4 ">
+                <h3 className="font-bold text-[22px] text-white text-shadow-md">{titleProject}</h3>
+                <p className="text-white text-shadow-md">{description}</p>
+           
+                <div className="flex flex-row gap-4 my-2">
+                    <a href={projectURL} target="_blank" rel="noopener noreferrer">
+                        <button className="px-4 py-2 border-2 rounded-lg bg-accent border-accent text-black text-sm/7 font-semibold hover:cursor-pointer hover:opacity-90">View Project</button>
+                    </a>
+                    <Link to={processRoute}>
+                        <button className="px-4 py-2 border-2 rounded-lg backdrop-blur-md border-border text-white text-sm/7 text-shadow-md font-semibold hover:border-accent hover:bg-accent-soft hover:text-accent hover:cursor-pointer">View Process</button>
+                    </Link>
+                </div>
             </div>
         </section>
     )

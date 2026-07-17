@@ -12,11 +12,11 @@ function LanguageToggle() {
     const { setLanguage } = langContext
 
     return(
-        <>
-            <button onClick={() => setLanguage("pt")}>PT</button>
-            <button onClick={() => setLanguage("en")}>EN</button>
-            <button onClick={() => setLanguage("nl")}>NL</button>
-        </>
+        <div className="flex gap-3">
+            <button onClick={() => setLanguage("pt")} className="cursor-pointer">🇧🇷</button>
+            <button onClick={() => setLanguage("en")} className="cursor-pointer">🇬🇧</button>
+            <button onClick={() => setLanguage("nl")} className="cursor-pointer">🇳🇱</button>
+        </div>
     )
 
 }

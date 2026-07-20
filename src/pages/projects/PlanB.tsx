@@ -4,9 +4,6 @@ import htmlIcon from "../../assets/tech/html5-original.svg";
 import cssIcon from "../../assets/tech/css3-original.svg";
 import jsIcon from "../../assets/tech/javascript.svg";
 import gif from "../../assets/projects/planB/PlanB-v3.mp4";
-// import sketch from "../../assets/projects/planB/sketch-2.jpg"
-//import logo from "../../assets/projects/planB/logo-sq.png";
-//import result from "../../assets/projects/planB/resultA.jpg";
 import frameImgs from "../../assets/projects/planB/frame-2.png"
 import workout from "../../assets/projects/planB/workout.jpeg";
 import Footer from "../../components/Footer";
@@ -80,7 +77,6 @@ function PlanB() {
                     <Link to="/projects/Recipes" className="font-semibold hover:text-accent">Favorite Recipes →</Link>
                 </div>
             </main>
-
             <Footer />
         </>
     )

@@ -21,15 +21,15 @@ function PlanB() {
                     <h1 className="font-display text-text-main text-6xl font-semibold">Plan B</h1>
                     <p>Your own workout planner</p>
                     <div className="flex flex-wrap justify-start gap-2 my-4">
-                        <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={htmlIcon} alt="JavaScript" className="w-4.5"/> HTML5</span>
-                        <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={cssIcon} alt="JavaScript" className="w-4"/> CSS3</span>
+                        <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={htmlIcon} alt="HTML5" className="w-4.5"/> HTML5</span>
+                        <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={cssIcon} alt="CSS3" className="w-4"/> CSS3</span>
                         <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={jsIcon} alt="JavaScript" className="w-4"/> JavaScript</span>
                     </div>
                     <div className="flex flex-row gap-4 my-2">
-                        <a href="https://brunapessoa.github.io/b-plan-training/">
+                        <a href="https://brunapessoa.github.io/b-plan-training/" target="_blank" rel="noopener noreferrer">
                             <button className="px-3 py-1.5 border-2 rounded-lg bg-accent border-accent text-black text-sm/7 font-semibold hover:cursor-pointer hover:opacity-90">View project</button>
                         </a>
-                        <a href="">
+                        <a href="https://github.com/Brunapessoa/b-plan-training" target="_blank" rel="noopener noreferrer">
                             <button className="bg-accent-soft px-3 py-1.5 border-2 rounded-lg border-border text-text-muted text-sm/7 text-shadow-md font-semibold hover:border-accent hover:bg-accent-soft hover:text-accent hover:cursor-pointer">View on GitHub</button>
                         </a>
                     </div>
@@ -47,7 +47,7 @@ function PlanB() {
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5 md:items-start">
                         <h2 className="font-bold font-sans text-text-main text-2xl">Decisions and Process</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quasi, natus illum excepturi reprehenderit hic molestiae nulla, velit possimus voluptas earum unde. Rem, repudiandae molestias. Temporibus minima obcaecati porro deleniti!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et possimus doloremque soluta dolor? Autem reprehenderit repellat eos quis corrupti consequuntur debitis aspernatur, velit a et aut accusantium vero maxime. Tempora?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et possimus doloremque soluta dolor? Autem reprehenderit repellat eos quis corrupti consequuntur debitis aspernatur, velit a et aut accusantium vero maxime. Tempora? TESTANDO</p>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@ function PlanB() {
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">Challenges</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptate numquam ut eius sit veniam eos dolor totam assumenda, labore reiciendis, quibusdam praesentium dolore expedita veritatis rerum magni ab neque?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam nulla culpa beatae earum, adipisci ab, voluptas asperiores nobis obcaecati dolore itaque expedita repudiandae mollitia dolorem labore non, fugiat enim.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam nulla culpa beatae earum, adipisci ab, voluptas asperiores nobis obcaecati dolore itaque expedita repudiandae mollitia dolorem labore non, fugiat enim. FALAR SOBRE ESTAR PASSANDO POR TESTES INTERNOS DO GOOGLE PARA PUBLICAR NA PLAYSTORE</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
@@ -70,7 +70,7 @@ function PlanB() {
                 </div>
                 <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                     <h2 className="font-bold font-sans text-text-main text-2xl">Next Steps</h2>
-                    <p>Refatorar para React, incluir uma box select, onde pode selecionar qual treino será feito no dia, a página mostrará apenas o treino do dia. Incliuir a data da úlma vez que o treino foi realizado, que será registrada quando um botao "done" for clicado, ao final do treino.
+                    <p>FALAR SOBRE ESTAR PASSANDO POR TESTES INTERNOS DO GOOGLE PARA PUBLICAR NA PLAYSTORE. Refatorar para React, incluir uma box select, onde pode selecionar qual treino será feito no dia, a página mostrará apenas o treino do dia. Incliuir a data da úlma vez que o treino foi realizado, que será registrada quando um botao "done" for clicado, ao final do treino.
                     </p>
                 </div>
                 <div className="flex justify-end">

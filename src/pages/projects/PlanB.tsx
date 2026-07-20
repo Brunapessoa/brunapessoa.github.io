@@ -21,8 +21,8 @@ function PlanB() {
                     <h1 className="font-display text-text-main text-6xl font-semibold">Plan B</h1>
                     <p>Your own workout planner</p>
                     <div className="flex flex-wrap justify-start gap-2 my-4">
-                        <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={htmlIcon} alt="JavaScript" className="w-4.5"/> HTML5</span>
-                        <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={cssIcon} alt="JavaScript" className="w-4"/> CSS3</span>
+                        <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={htmlIcon} alt="HTML5" className="w-4.5"/> HTML5</span>
+                        <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={cssIcon} alt="CSS3" className="w-4"/> CSS3</span>
                         <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={jsIcon} alt="JavaScript" className="w-4"/> JavaScript</span>
                     </div>
                     <div className="flex flex-row gap-4 my-2">

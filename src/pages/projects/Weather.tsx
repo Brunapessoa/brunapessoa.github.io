@@ -18,9 +18,9 @@ function Weather() {
                 <h1 className="font-display text-text-main text-6xl font-semibold">Weatherly</h1>
                 <p>Forecast you can trust</p>
                 <div className="flex flex-wrap justify-start gap-2 my-4">
-                    <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={reactIcon} alt="JavaScript" className="w-4"/>React</span>
+                    <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={reactIcon} alt="React" className="w-4"/>React</span>
                     <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={jsIcon} alt="JavaScript" className="w-4"/>JavaScript</span>
-                    <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={tailwindIcon} alt="JavaScript" className="w-4"/>Tailwind</span>
+                    <span className="flex items-center gap-2 bg-bg-card border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={tailwindIcon} alt="Tailwind" className="w-4"/>Tailwind</span>
                 </div>
                 <div className="flex flex-row gap-4 my-2">
                     <a href="https://brunapessoa.github.io/weather/" target="_blank" rel="noopener noreferrer">
@@ -66,7 +66,7 @@ function Weather() {
                     </div>
                 </div>
                 <div className="flex flex-row justify-between">
-                    <Link to="/projects/Recipes" className="font-semibold hover:text-accent">← Favorite Recipe</Link>
+                    <Link to="/projects/Recipes" className="font-semibold hover:text-accent">← Favorite Recipes</Link>
                     <Link to="/projects/TasksMng" className="font-semibold hover:text-accent">Tasks Management →</Link>
                 </div>
         </main>

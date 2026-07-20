@@ -47,7 +47,7 @@ function PlanB() {
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5 md:items-start">
                         <h2 className="font-bold font-sans text-text-main text-2xl">Decisions and Process</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quasi, natus illum excepturi reprehenderit hic molestiae nulla, velit possimus voluptas earum unde. Rem, repudiandae molestias. Temporibus minima obcaecati porro deleniti!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et possimus doloremque soluta dolor? Autem reprehenderit repellat eos quis corrupti consequuntur debitis aspernatur, velit a et aut accusantium vero maxime. Tempora?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et possimus doloremque soluta dolor? Autem reprehenderit repellat eos quis corrupti consequuntur debitis aspernatur, velit a et aut accusantium vero maxime. Tempora? TESTANDO</p>
                     </div>
                 </div>
 

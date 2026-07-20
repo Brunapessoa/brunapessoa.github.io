@@ -17,5 +17,42 @@
     "tasksDesc": "App de gerenciamento de tarefas",
     
     "contactH2": "Vamos conversar?",
-    "contactP": "Entre em contato:"
+    "contactP": "Entre em contato:",
+
+    "ProjectBtn": "Ver projeto",
+    "onGHBtn": "Ver no GitHub",
+
+    "PlanBDescPhrase": "Seu organizador de treinos",
+
+    "PlanBContext": "O Contexto",
+
+    "PlanBProblemP1": "O projeto começou com um problema simples: eu precisava de uma forma mais prática de acompanhar meus treinos.",
+    "PlanBProblemP2": "Eu costumava organizar meus exercícios usando um PDF no celular, mas atualizar pesos, alterar exercícios e acompanhar minha evolução acabava sendo um processo manual.",
+    "PlanBProblemP3": "Depois de testar algumas alternativas, percebi que muitos aplicativos tentavam resolver tudo ao mesmo tempo, adicionando funcionalidades que eu não precisava. Eu queria algo diferente: uma ferramenta simples, rápida e focada no essencial.",
+    "PlanBProblemP4": "Então decidi construir minha própria solução.",
+    "PlanBProblemP5": "Assim que nasceu o Plan B.",
+    "PlanBProblemP6": "O nome representa a ideia por trás do projeto: o B também é de Básico. A proposta nunca foi criar o aplicativo mais completo do mercado, mas sim uma solução simples, funcional e bem executada — porque, muitas vezes, um básico bem feito é mais útil do que um plano perfeito que nunca sai do papel.",
+
+    "PlanBDescision": "Decisões e Processo",
+    "PlanBDescisionP1": "O Plan B foi pensado como um aplicativo para uso durante o treino, por isso a interface foi desenvolvida seguindo uma abordagem mobile-first.", 
+    "PlanBDescisionP2": "O projeto foi desenvolvido com HTML, CSS e JavaScript puro, sem frameworks, permitindo explorar profundamente os fundamentos da web antes de evoluir para uma stack mais moderna.",
+    "PlanBDescisionP3": "O aplicativo permite criar e gerenciar diferentes treinos (A–E), com funcionalidades para adicionar, editar e remover exercícios através de uma interface simples e direta.",
+    "PlanBDescisionP4": "Após finalizar a versão web, expandi o projeto para Android, aprendendo o processo de configuração, empacotamento e distribuição utilizando o Android Studio.",
+
+    "PlanBChallanges": "Desafios",
+    "PlanBChallangesP1": "O principal desafio foi transformar uma aplicação web em um aplicativo Android.",
+    "PlanBChallangesP2": "Aprendi de forma independente o processo de configuração do Android Studio, geração do APK, assinatura da aplicação e preparação para publicação.",
+    "PlanBChallangesP3": "Atualmente, o Plan B está passando pelos testes internos da Google Play antes da publicação oficial na Play Store.",
+    "PlanBChallangesP4": "Esse processo me permitiu conhecer não apenas o desenvolvimento de uma aplicação, mas também parte do ciclo de entrega de um produto real.",
+
+    "PlanBStack": "Tecnologias",
+    "PlanBStackP1": "O Plan B foi desenvolvido com HTML5, CSS3 e JavaScript puro, sem frameworks.",
+    "PlanBStackP2": "Essa escolha foi intencional: queria entender os fundamentos da web em profundidade antes de evoluir para uma stack mais moderna — desde a manipulação do DOM até a lógica de CRUD implementada com localStorage.",
+    "PlanBStackP3": "Além da versão web, utilizei o Android Studio para empacotar e distribuir a aplicação como um app Android.",
+    
+    "PlanBNext": "Próximas Etapas",
+    "PlanBNextP1": "O Plan B continua evoluindo.",
+    "PlanBNextP2": "O próximo passo é refatorar a aplicação utilizando React, TypeScript e Tailwind CSS, criando uma estrutura mais escalável e preparada para novas funcionalidades.",
+    "PlanBNextP3": "Com essa nova base, pretendo evoluir a experiência do usuário adicionando recursos como a seleção do treino do dia, permitindo que o usuário visualize apenas a rotina escolhida, e o registro da última execução de cada treino através do botão Done ao final da sessão.",
+    "PlanBNextP4": "A ideia é continuar expandindo o aplicativo sem perder o conceito que deu origem ao projeto: manter uma experiência simples e objetiva, enquanto a implementação se torna cada vez mais robusta."
 }

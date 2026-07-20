@@ -17,5 +17,47 @@
     "tasksDesc": "Task management app",
 
     "contactH2": "Let's Talk?",
-    "contactP": "Contact me:"
+    "contactP": "Contact me:",
+
+    "ProjectBtn": "View project",
+    "onGHBtn": "View on Github",
+
+
+    "PlanBDescPhrase": "Your own workout planner",
+
+    "PlanBContext": "The Context",
+
+    "PlanBProblemP1": "The project started with a simple problem: I needed a more practical way to track my workouts.",
+    "PlanBProblemP2": "I used to organize my exercises using a PDF on my phone, but updating weights, changing exercises, and tracking my progress eventually became a manual process.",
+    "PlanBProblemP3": "After trying different alternatives, I realized that many apps tried to solve everything at once, adding features that I simply didn’t need. I wanted something different: a simple, fast tool focused on what really matters.",
+    "PlanBProblemP4": "So I decided to build my own solution.",
+    "PlanBProblemP5": "And that’s how Plan B was born.",
+    "PlanBProblemP6": "The name represents the idea behind the project: the B also stands for Basic. The goal was never to create the most complete app on the market, but rather a simple, functional, and well-executed solution — because, many times, a well-done basic solution is more useful than a perfect plan that never becomes reality.",
+
+    "PlanBDescision": "Decisions and Process",
+    "PlanBDescisionP1": "Plan B was designed as an app to be used during workouts, which is why the interface was developed following a mobile-first approach.", 
+    "PlanBDescisionP2": "The project was built using pure HTML, CSS, and JavaScript, without frameworks, allowing me to deeply explore web fundamentals before moving to a more modern stack.",
+    "PlanBDescisionP3": "The app allows users to create and manage different workouts (A–E), with features to add, edit, and remove exercises through a simple and straightforward interface.",
+    "PlanBDescisionP4": "After completing the web version, I expanded the project to Android, learning the process of configuring, packaging, and distributing the application using Android Studio.",
+
+    "PlanBChallanges": "Challenges",
+    "PlanBChallangesP1": "The main challenge was transforming a web application into an Android app.",
+    "PlanBChallangesP2": "I independently learned the process of configuring Android Studio, generating the APK, signing the application, and preparing it for publication.",
+    "PlanBChallangesP3": "Currently, Plan B is going through Google Play internal testing before its official release on the Play Store.",
+    "PlanBChallangesP4": "This process allowed me to understand not only application development but also part of the lifecycle involved in delivering a real product.",
+
+    "PlanBStack": "Technologies",
+    "PlanBStackP1": "Plan B was developed using HTML5, CSS3, and pure JavaScript, without frameworks.",
+    "PlanBStackP2": "This choice was intentional: I wanted to deeply understand web fundamentals before moving to a more modern stack — from DOM manipulation to the CRUD logic implemented with localStorage.",
+    "PlanBStackP3": "Besides the web version, I used Android Studio to package and distribute the application as an Android app.",
+    
+    "PlanBNext": "Next Steps",
+    "PlanBNextP1": "Plan B continues to evolve.",
+    "PlanBNextP2": "The next step is to refactor the application using React, TypeScript, and Tailwind CSS, creating a more scalable structure prepared for future features.",
+    "PlanBNextP3": "With this new foundation, I plan to improve the user experience by adding features such as selecting the workout of the day, allowing users to view only the chosen routine, and recording the last time each workout was completed through the Done button at the end of the session.",
+    "PlanBNextP4": "The idea is to keep expanding the app without losing the concept that started the project: maintaining a simple and focused experience while making the implementation increasingly robust."
+
+
+
+
 }

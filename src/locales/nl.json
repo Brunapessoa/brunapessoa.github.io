@@ -18,5 +18,44 @@
     "tasksDesc": "Taakbeheer app",
 
     "contactH2": "Laten we praten?",
-    "contactP": "Neem contact op:"
+    "contactP": "Neem contact op:",
+
+
+    "ProjectBtn": "Bekijk project",
+    "onGHBtn": "Bekijk op GitHub",
+
+    "PlanBDescPhrase": "Je eigen workoutplanner",
+
+    "PlanBContext": "De Context",
+
+    "PlanBProblemP1": "Het project begon met een eenvoudige behoefte: ik had een praktischere manier nodig om mijn trainingen bij te houden.",
+    "PlanBProblemP2": "Ik organiseerde mijn oefeningen met een PDF op mijn telefoon, maar het aanpassen van gewichten, het wijzigen van oefeningen en het volgen van mijn voortgang werd uiteindelijk een handmatig proces.",
+    "PlanBProblemP3": "Na het testen van verschillende alternatieven merkte ik dat veel apps alles tegelijk probeerden op te lossen door functies toe te voegen die ik eigenlijk niet nodig had. Ik wilde iets anders: een eenvoudige, snelle tool die zich richt op wat echt belangrijk is.",
+    "PlanBProblemP4": "Daarom besloot ik mijn eigen oplossing te bouwen.",
+    "PlanBProblemP5": "En zo is Plan B ontstaan.",
+    "PlanBProblemP6": "De naam vertegenwoordigt het idee achter het project: de B staat ook voor Basic. Het doel was nooit om de meest complete app op de markt te maken, maar om een eenvoudige, functionele en goed uitgevoerde oplossing te creëren — omdat een goed uitgevoerde basis vaak waardevoller is dan een perfect plan dat nooit werkelijkheid wordt.",
+
+    "PlanBDescision": "Beslissingen en Proces",
+    "PlanBDescisionP1": "Plan B is ontworpen als een app die tijdens trainingen gebruikt kan worden. Daarom is de interface ontwikkeld volgens een mobile-first aanpak.", 
+    "PlanBDescisionP2": "Het project is gebouwd met pure HTML, CSS en JavaScript, zonder frameworks. Hierdoor kon ik de fundamenten van webontwikkeling diepgaand verkennen voordat ik overstapte naar een modernere stack.",
+    "PlanBDescisionP3": "De app stelt gebruikers in staat om verschillende trainingen (A–E) te maken en te beheren, met functies om oefeningen toe te voegen, te bewerken en te verwijderen via een eenvoudige en directe interface.",
+    "PlanBDescisionP4": "Na het afronden van de webversie heb ik het project uitgebreid naar Android. Hierbij heb ik geleerd hoe het proces van configuratie, verpakking en distributie werkt met behulp van Android Studio.",
+
+    "PlanBChallanges": "Uitdagingen",
+    "PlanBChallangesP1": "De grootste uitdaging was het omzetten van een webapplicatie naar een Android-app.",
+    "PlanBChallangesP2": "Ik heb zelfstandig geleerd hoe ik Android Studio configureer, een APK genereer, de applicatie onderteken en voorbereid voor publicatie.",
+    "PlanBChallangesP3": "Momenteel doorloopt Plan B de interne tests van Google Play voordat de officiële release in de Play Store plaatsvindt.",
+    "PlanBChallangesP4": "Dit proces heeft mij niet alleen inzicht gegeven in de ontwikkeling van een applicatie, maar ook in een deel van de levenscyclus van het opleveren van een echt product.",
+
+    "PlanBStack": "Technologieën",
+    "PlanBStackP1": "Plan B is ontwikkeld met HTML5, CSS3 en pure JavaScript, zonder frameworks.",
+    "PlanBStackP2": "Deze keuze was bewust: ik wilde de fundamenten van webontwikkeling diepgaand begrijpen voordat ik overstapte naar een modernere stack — van DOM-manipulatie tot de CRUD-logica die is geïmplementeerd met localStorage.",
+    "PlanBStackP3": "Naast de webversie heb ik Android Studio gebruikt om de applicatie als Android-app te verpakken en te distribueren.",
+    
+    "PlanBNext": "Volgende Stappen",
+    "PlanBNextP1": "Plan B blijft zich ontwikkelen.",
+    "PlanBNextP2": "De volgende stap is om de applicatie te refactoren met React, TypeScript en Tailwind CSS, waardoor een beter schaalbare structuur ontstaat die voorbereid is op toekomstige functies.",
+    "PlanBNextP3": "Met deze nieuwe basis wil ik de gebruikerservaring verbeteren door functies toe te voegen zoals het selecteren van de training van de dag, zodat gebruikers alleen de gekozen routine kunnen bekijken, en het registreren van de laatste keer dat elke training is uitgevoerd via de Done-knop aan het einde van de sessie.",
+    "PlanBNextP4": "Het idee is om de app verder uit te breiden zonder het concept te verliezen waarmee het project begon: een eenvoudige en gerichte ervaring behouden, terwijl de implementatie steeds robuuster wordt."
+
 }

@@ -34,9 +34,13 @@
 
     "onGHBtn": "Ver no GitHub",
 
-    "planBDescPhrase": "Seu organizador de treinos",
+    "context": "O Contexto",
+    "descision": "Decisões e Processo",
+    "challenges": "Desafios",
+    "technologies": "Tecnologias",
+    "next": "Próximas Etapas",
 
-    "planBContext": "O Contexto",
+    "planBDescPhrase": "Seu organizador de treinos",
 
     "planBProblemP1": "O projeto começou com um problema simples: eu precisava de uma forma mais prática de acompanhar meus treinos.",
     "planBProblemP2": "Eu costumava organizar meus exercícios usando um PDF no celular, mas atualizar pesos, alterar exercícios e acompanhar minha evolução acabava sendo um processo manual.",
@@ -45,26 +49,85 @@
     "planBProblemP5": "Assim que nasceu o Plan B.",
     "planBProblemP6": "O nome representa a ideia por trás do projeto: o B também é de Básico. A proposta nunca foi criar o aplicativo mais completo do mercado, mas sim uma solução simples, funcional e bem executada — porque, muitas vezes, um básico bem feito é mais útil do que um plano perfeito que nunca sai do papel.",
 
-    "planBDescision": "Decisões e Processo",
     "planBDescisionP1": "O Plan B foi pensado como um aplicativo para uso durante o treino, por isso a interface foi desenvolvida seguindo uma abordagem mobile-first.", 
     "planBDescisionP2": "O projeto foi desenvolvido com HTML, CSS e JavaScript puro, sem frameworks, permitindo explorar profundamente os fundamentos da web antes de evoluir para uma stack mais moderna.",
     "planBDescisionP3": "O aplicativo permite criar e gerenciar diferentes treinos (A–E), com funcionalidades para adicionar, editar e remover exercícios através de uma interface simples e direta.",
     "planBDescisionP4": "Após finalizar a versão web, expandi o projeto para Android, aprendendo o processo de configuração, empacotamento e distribuição utilizando o Android Studio.",
 
-    "planBChallanges": "Desafios",
     "planBChallangesP1": "O principal desafio foi transformar uma aplicação web em um aplicativo Android.",
     "planBChallangesP2": "Aprendi de forma independente o processo de configuração do Android Studio, geração do APK, assinatura da aplicação e preparação para publicação.",
     "planBChallangesP3": "Atualmente, o Plan B está passando pelos testes internos da Google Play antes da publicação oficial na Play Store.",
     "planBChallangesP4": "Esse processo me permitiu conhecer não apenas o desenvolvimento de uma aplicação, mas também parte do ciclo de entrega de um produto real.",
 
-    "planBStack": "Tecnologias",
     "planBStackP1": "O Plan B foi desenvolvido com HTML5, CSS3 e JavaScript puro, sem frameworks.",
     "planBStackP2": "Essa escolha foi intencional: queria entender os fundamentos da web em profundidade antes de evoluir para uma stack mais moderna — desde a manipulação do DOM até a lógica de CRUD implementada com localStorage.",
     "planBStackP3": "Além da versão web, utilizei o Android Studio para empacotar e distribuir a aplicação como um app Android.",
     
-    "planBNext": "Próximas Etapas",
     "planBNextP1": "O Plan B continua evoluindo.",
     "planBNextP2": "O próximo passo é refatorar a aplicação utilizando React, TypeScript e Tailwind CSS, criando uma estrutura mais escalável e preparada para novas funcionalidades.",
     "planBNextP3": "Com essa nova base, pretendo evoluir a experiência do usuário adicionando recursos como a seleção do treino do dia, permitindo que o usuário visualize apenas a rotina escolhida, e o registro da última execução de cada treino através do botão Done ao final da sessão.",
-    "planBNextP4": "A ideia é continuar expandindo o aplicativo sem perder o conceito que deu origem ao projeto: manter uma experiência simples e objetiva, enquanto a implementação se torna cada vez mais robusta."
+    "planBNextP4": "A ideia é continuar expandindo o aplicativo sem perder o conceito que deu origem ao projeto: manter uma experiência simples e objetiva, enquanto a implementação se torna cada vez mais robusta.",
+        
+    "recipesDescPhrase": "",
+
+    "recipesContextP1": "",
+    "recipesContextP2": "",
+
+    "recipesDescisionP1": "",
+    "recipesDescisionP2": "",
+    "recipesDescisionP3": "", 
+
+    "recipesChallangesP1": "",
+    "recipesChallangesP2": "",
+    "recipesChallangesP3": "",
+
+    "recipesTechP1": "",
+    "recipesTechP2": "",
+
+
+
+
+
+
+    "weatherDescPhrase": "Previsão em que você pode confiar",
+
+    "weatherContextP1": "A maioria dos aplicativos de previsão do tempo apresenta informações meteorológicas de forma muito objetiva, geralmente focando apenas em números e listas.",
+    
+    "weatherContextP2": "Para este projeto, eu quis criar uma experiência mais visual e intuitiva, onde o usuário pudesse entender rapidamente o clima de um local e também ter uma percepção mais próxima da cidade pesquisada.",
+
+    "weatherContextP3": "O projeto também explora o consumo de múltiplas APIs externas, gerenciamento de requisições assíncronas e atualização dinâmica da interface com React.",
+
+    "weatherDescisionP1": "A experiência foi pensada para reduzir a quantidade de ações necessárias do usuário:",
+    
+    
+    "weatherDescisionP2":"Ao abrir a aplicação, a Geolocation API nativa do navegador identifica automaticamente a localização atual e exibe as informações meteorológicas. Caso o usuário negue a permissão ou queira consultar outro local, a busca manual por cidade fica disponível através do formulário, com suporte tanto ao clique quanto à tecla Enter.",
+
+    "weatherDescisionP3": "Para tornar a interface mais envolvente, integrei a Unsplash API para atualizar o plano de fundo com uma imagem real da cidade pesquisada. Em vez de exibir apenas dados em um card tradicional, a aplicação cria uma conexão visual com o local consultado.",
+    "weatherDescisionP4": "Também implementei um alternador entre o clima atual e a previsão dos próximos cinco dias. A previsão foi estruturada utilizando CSS Grid, organizando datas e temperaturas máximas e mínimas em colunas para facilitar a leitura e comparação das informações.", 
+
+    "weatherChallangesP1": "Um dos principais desafios foi garantir a legibilidade do conteúdo sobre diferentes imagens de fundo. Como cada cidade possui fotos com características visuais diferentes, foi necessário criar uma solução consistente utilizando overlays translúcidos e text-shadow para manter o contraste adequado.",
+    "weatherChallangesP2": "Outro desafio foi lidar com diferentes estados da aplicação sem comprometer a experiência do usuário. Foram implementados estados de carregamento e mensagens específicas para situações como cidade não encontrada e permissão de geolocalização negada.",
+    "weatherChallangesP3": "Durante o desenvolvimento, também trabalhei com o tratamento de dados vindos das APIs, organização das requisições assíncronas e atualização dos estados da aplicação conforme novas pesquisas eram realizadas.",
+
+    "weatherTechP1": "O projeto foi desenvolvido com React e JavaScript, utilizando Vite para a configuração da aplicação e Tailwind CSS para a estilização.",
+    "weatherTechP2": "A aplicação consome a WeatherAPI para obter os dados meteorológicos e a Unsplash API para carregar imagens dinâmicas das cidades pesquisadas.",
+
+    "weatherTechP3": "O gerenciamento do estado foi realizado com os hooks useState e useEffect, responsáveis por controlar a geolocalização, buscas, requisições assíncronas e alternância entre clima atual e previsão de cinco dias.",
+
+    "tasksDescPhrase": "",
+    
+    "tasksContextP1": "",
+    "tasksContextP2": "",
+    
+    "tasksDescisionP1": "",
+    "tasksDescisionP2": "",
+    "tasksDescisionP3": "", 
+    
+    "tasksChallangesP1": "",
+    "tasksChallangesP2": "",
+    "tasksChallangesP3": "",
+    
+    "tasksTechP1": "",
+    "tasksTechP2": ""
+
 }

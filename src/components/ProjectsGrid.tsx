@@ -1,9 +1,9 @@
 import ProjectCard from "./ProjectCard"
 import { LanguageContext } from "../context/LanguageContext";
 import { useContext } from "react";
-import planBImg from "../assets/projects/planB/plan-b-card.png";
+import planBImg from "../assets/projects/planB/planBcard.png";
 import recipeImg from "../assets/projects/recipes/recipes.png";
-import weatherImg from "../assets/projects/weather/weatherly1.png";
+import weatherImg from "../assets/projects/weather/NY.png";
 import todolistImg from "../assets/projects/todolist/todolist-react.png"
 
 function ProjectsGrid() {

@@ -1,12 +1,25 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import { LanguageContext } from "../../context/LanguageContext";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import reactIcon from "../../assets/tech/react-original.svg";
 import tailwindIcon from "../../assets/tech/tailwindcss.svg";
 import jsIcon from "../../assets/tech/javascript.svg";
+import frameNY from "../../assets/projects/weather/Frame-NY2.png";
+import frameNoImg from "../../assets/projects/weather/Frame-no-img.png"
+import amstImg from "../../assets/projects/weather/Amst.png"
 
 function Weather() {
 
+    const langContext = useContext(LanguageContext)
+        
+        if(!langContext) {
+            return null
+        }
+        
+        const { translations } = langContext
+        
     return(
         <>
         <Header />
@@ -16,7 +29,7 @@ function Weather() {
             
             <div>
                 <h1 className="font-display text-text-main text-6xl font-semibold">Weatherly</h1>
-                <p>Forecast you can trust</p>
+                <p>{translations.weatherDescPhrase}</p>
                 <div className="flex flex-wrap justify-start gap-2 my-4">
                     <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={reactIcon} alt="React" className="w-4"/>React</span>
                     <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={jsIcon} alt="JavaScript" className="w-4"/>JavaScript</span>
@@ -24,46 +37,51 @@ function Weather() {
                 </div>
                 <div className="flex flex-row gap-4 my-2">
                     <a href="https://brunapessoa.github.io/weather/" target="_blank" rel="noopener noreferrer">
-                        <button className="px-3 py-1.5 border-2 rounded-lg bg-accent border-accent text-black text-sm/7 font-semibold hover:cursor-pointer hover:opacity-90">View project</button>
+                        <button className="px-3 py-1.5 border-2 rounded-lg bg-accent border-accent text-black text-sm/7 font-semibold hover:cursor-pointer hover:opacity-90">{translations.projectBtn}</button>
                     </a>
                     <a href="https://github.com/Brunapessoa/weather" target="_blank" rel="noopener noreferrer">
-                        <button className="bg-accent-soft px-3 py-1.5 border-2 rounded-lg border-border text-text-muted text-sm/7 text-shadow-md font-semibold hover:border-accent hover:bg-accent-soft hover:text-accent hover:cursor-pointer">View on GitHub</button>
+                        <button className="bg-accent-soft px-3 py-1.5 border-2 rounded-lg border-border text-text-muted text-sm/7 text-shadow-md font-semibold hover:border-accent hover:bg-accent-soft hover:text-accent hover:cursor-pointer">{translations.onGHBtn}</button>
                     </a>
                 </div>
                 </div>
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-start ">
-
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">The Problem</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit maiores eveniet aperiam accusantium laborum, sapiente facere eaque voluptate et enim dolorum fugiat? Beatae et voluptatem corrupti, minus mollitia commodi. Voluptatem.</p>
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.context}</h2>
+                        <p>{translations.weatherContextP1}</p>
+                        <p>{translations.weatherContextP2}</p>
+                        <p>{translations.weatherContextP3}</p>
                     </div>
-                    <div className="mx-auto w-62.5 h-auto overflow-hidden md:row-span-2">
-                        <video src="" autoPlay loop muted playsInline className="rounded-lg border border-border"></video>
+                    <div className="mx-auto">
+                        <img src={frameNY} alt="" className=" w-80 h-auto overflow-hidden md:w-120 mx-auto md:order-last"/>
                     </div>
+                </div>
                     
-                    <div className="flex flex-col gap-5 border-l-2 border-accent pl-5 md:items-start">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">Decisions and Process</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quasi, natus illum excepturi reprehenderit hic molestiae nulla, velit possimus voluptas earum unde. Rem, repudiandae molestias. Temporibus minima obcaecati porro deleniti!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et possimus doloremque soluta dolor? Autem reprehenderit repellat eos quis corrupti consequuntur debitis aspernatur, velit a et aut accusantium vero maxime. Tempora?</p>
+                <div className="flex flex-col gap-5 border-l-2 border-accent pl-5 md:items-start">
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.descision}</h2>
+                        <p>{translations.weatherDescisionP1}</p>
+                        <p>{translations.weatherDescisionP2}</p>
+                        <p>{translations.weatherDescisionP3}</p>
+                        <p>{translations.weatherDescisionP4}</p>
                     </div>
-                </div>
 
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
-                    <img src="" alt="" className="w-80 mx-auto"/>
+                    <img src={frameNoImg} alt="" className="w-80 md:w-120 mx-auto"/>
 
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">Challenges</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptate numquam ut eius sit veniam eos dolor totam assumenda, labore reiciendis, quibusdam praesentium dolore expedita veritatis rerum magni ab neque?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam nulla culpa beatae earum, adipisci ab, voluptas asperiores nobis obcaecati dolore itaque expedita repudiandae mollitia dolorem labore non, fugiat enim.</p>
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.challenges}</h2>
+                        <p>{translations.weatherChallangesP1}</p>
+                        <p>{translations.weatherChallangesP2}</p>
+                        <p>{translations.weatherChallangesP3}</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
-                    <img src="" alt="" className=" mx-auto rounded-lg border border-border w-62 md:order-last" />
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">Stack</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium natus fugit cumque facere tenetur autem, exercitationem aperiam ullam neque, iure possimus vel praesentium animi odio sapiente soluta sequi, adipisci accusamus!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odio reprehenderit alias libero distinctio veniam omnis voluptate dolore, dicta itaque exercitationem molestias consectetur laudantium fugit earum, maxime nihil rerum dolorum.</p>
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.technologies}</h2>
+                        <p>{translations.weatherTechP1}</p>
+                        <p>{translations.weatherTechP2}</p>
+                         <p>{translations.weatherTechP3}</p>
                     </div>
+                    <img src={amstImg} alt="" className=" mx-auto rounded-lg border border-border w-80 md:w-100"/>
                 </div>
                 <div className="flex flex-row justify-between">
                     <Link to="/projects/Recipes" className="font-semibold hover:text-accent">← Favorite Recipes</Link>

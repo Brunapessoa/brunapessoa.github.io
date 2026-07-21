@@ -48,7 +48,7 @@ function PlanB() {
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-start ">
 
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.planBContext}</h2>
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.context}</h2>
                         <p>{translations.planBProblemP1}
                         </p>
                         <p>{translations.planBProblemP2}
@@ -67,7 +67,7 @@ function PlanB() {
                     </div>
                 </div>
                 <div className="flex flex-col gap-5 border-l-2 border-accent pl-5 md:items-start">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.planBDescision}</h2>
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.descision}</h2>
                         <p>{translations.planBDescisionP1}</p>
                         <p>{translations.planBDescisionP2}</p>
                         <p>{translations.planBDescisionP3}</p>
@@ -77,7 +77,7 @@ function PlanB() {
                     <img src={frameImgs} alt="" className="w-80 mx-auto"/>
 
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.planBChallanges}</h2>
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.challenges}</h2>
                         <p>{translations.planBChallangesP1}</p>
                         <p>{translations.planBChallangesP2}</p>
                         <p>{translations.planBChallangesP3}</p>
@@ -87,14 +87,14 @@ function PlanB() {
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
                     <img src={workout} alt="" className=" mx-auto rounded-lg border border-border w-62 md:order-last" />
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.planBStack}</h2>
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.technologies}</h2>
                         <p>{translations.planBStackP1}</p>
                         <p>{translations.planBStackP2}</p>
                         <p>{translations.planBStackP3}</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
-                    <h2 className="font-bold font-sans text-text-main text-2xl">{translations.planBNext}</h2>
+                    <h2 className="font-bold font-sans text-text-main text-2xl">{translations.next}</h2>
                     <p>{translations.planBNextP1}</p>
                     <p>{translations.planBNextP2}</p>
                     <p>{translations.planBNextP3}</p>

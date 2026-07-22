@@ -6,6 +6,8 @@ import { LanguageContext } from "../../context/LanguageContext";
 import reactIcon from "../../assets/tech/react-original.svg";
 import tailwindIcon from "../../assets/tech/tailwindcss.svg";
 import jsIcon from "../../assets/tech/javascript.svg";
+import frame1 from "../../assets/projects/todolist/frame1.png"
+import frame2 from "../../assets/projects/todolist/frame2.png"
 
 
 function TasksMng() {
@@ -50,7 +52,7 @@ function TasksMng() {
                         <p>{translations.tasksContextP2}</p>
                     </div>
                     <div className="mx-auto">
-                        <img src="" className="w-62.5 h-auto"></img>
+                        <img src={frame1} className="w-80 h-auto md:w-100"></img>
                     </div>
                 </div>
                     
@@ -64,7 +66,7 @@ function TasksMng() {
                     </div>
 
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
-                    <img src="" alt="" className="w-80 mx-auto"/>
+                    <img src={frame2} alt="" className="w-80 mx-auto md:w-100"/>
 
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">{translations.challenges}</h2>
@@ -73,14 +75,14 @@ function TasksMng() {
                         <p>{translations.tasksChallengesP3}</p>
                     </div>
                 </div>
-                <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
-                    <img src="" alt="" className=" mx-auto rounded-lg border border-border w-62 md:order-last" />
+                {/* <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center"> */}
+                    {/* <img src="" alt="" className=" mx-auto rounded-lg border border-border w-62 md:order-last" /> */}
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">{translations.technologies}</h2>
                         <p>{translations.tasksTechP1}</p>
                         <p>{translations.tasksTechP2}</p>
                     </div>
-                </div>
+                {/* </div> */}
                 <div className="flex flex-row justify-start">
                     <Link to="/projects/Weather" className="font-semibold hover:text-accent">← Weatherly</Link>
                 </div>

@@ -5,7 +5,10 @@ import { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import tailwindIcon from "../../assets/tech/tailwindcss.svg";
 import tsIcon from "../../assets/tech/typescript-original.svg";
-import reactIcon from "../../assets/tech/react-original.svg"
+import reactIcon from "../../assets/tech/react-original.svg";
+import firstImgs from "../../assets/projects/recipes/firstImgs.png"
+import secondImgs from "../../assets/projects/recipes/secondImgs(1).png"
+import thirdImg from "../../assets/projects/recipes/search.png"
 
 function Recipes() {
 
@@ -49,7 +52,7 @@ function Recipes() {
                         <p>{translations.recipesContextP2}</p>
                     </div>
                     <div className="mx-auto">
-                        <img src="" alt="" className=" w-80 h-auto overflow-hidden md:w-120 mx-auto md:order-last"/>
+                        <img src={firstImgs} alt="" className=" w-80 h-auto md:w-100 mx-auto"/>
                     </div>
                 </div>
                     
@@ -61,7 +64,7 @@ function Recipes() {
                     </div>
 
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
-                    <img src="" alt="" className="w-80 mx-auto"/>
+                    <img src={secondImgs} alt="" className="w-80 mx-auto md:w-120"/>
 
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">{translations.challenges}</h2>
@@ -71,7 +74,7 @@ function Recipes() {
                     </div>
                 </div>
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
-                    <img src="" alt="" className=" mx-auto rounded-lg border border-border w-62 md:order-last" />
+                    <img src={thirdImg} alt="" className=" mx-auto rounded-lg border border-border w-80 md:order-last md:w-100" />
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">{translations.technologies}</h2>
                         <p>{translations.recipesTechP1}</p>

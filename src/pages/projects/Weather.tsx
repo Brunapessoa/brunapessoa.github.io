@@ -52,7 +52,7 @@ function Weather() {
                         <p>{translations.weatherContextP3}</p>
                     </div>
                     <div className="mx-auto">
-                        <img src={frameNY} alt="" className=" w-80 h-auto overflow-hidden md:w-120 mx-auto md:order-last"/>
+                        <img src={frameNY} alt="" className=" w-80 h-auto md:w-120 mx-auto"/>
                     </div>
                 </div>
                     

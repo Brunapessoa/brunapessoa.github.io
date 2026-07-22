@@ -110,20 +110,23 @@
 
     "weatherTechP3": "O gerenciamento do estado foi realizado com os hooks useState e useEffect, responsáveis por controlar a geolocalização, buscas, requisições assíncronas e alternância entre clima atual e previsão de cinco dias.",
 
-    "tasksDescPhrase": "",
+    "tasksDescPhrase": "Tarefas simples, organizadas de forma eficiente",
     
-    "tasksContextP1": "",
-    "tasksContextP2": "",
+    "tasksContextP1": "Este projeto foi desenvolvido com o objetivo de construir uma aplicação de gerenciamento de tarefas funcional em React, aplicando conceitos como estado compartilhado entre componentes, navegação com React Router e persistência com localStorage.",
+    "tasksContextP2": "A proposta foi construir uma interface simples para criação, acompanhamento e organização de tarefas, aplicando gerenciamento de estado, navegação entre páginas e persistência de dados no navegador.",
     
-    "tasksDecisionP1": "",
-    "tasksDecisionP2": "",
-    "tasksDecisionP3": "", 
+    "tasksDecisionP1": "A aplicação permite adicionar tarefas com título e descrição, alterar seu status de conclusão e remover itens individualmente. As tarefas são exibidas em uma interface simples e responsiva, com feedback visual para itens concluídos.",
+    "tasksDecisionP2": "Cada tarefa também possui uma página de detalhes, permitindo que o usuário visualize suas informações completas sem perder a organização da lista principal.",
+    "tasksDecisionP3": "Para estruturar a aplicação, utilizei componentes separados e centralizei o gerenciamento do estado principal, passando as funções de atualização como propriedades para os componentes filhos.", 
+
+    "tasksDecisionP4": "A página de detalhes foi implementada utilizando React Router. Ao selecionar uma tarefa, o usuário é direcionado para uma rota específica onde pode visualizar informações como título e descrição, com os dados da tarefa sendo acessados através de parâmetros da URL.",
+    "tasksDecisionP5": "A persistência das informações foi realizada utilizando localStorage, garantindo que as tarefas permanecessem salvas mesmo após atualizar a página.",
     
-    "tasksChallengesP1": "",
-    "tasksChallengesP2": "",
-    "tasksChallengesP3": "",
+    "tasksChallengesP1": "O principal desafio foi organizar o fluxo de dados entre componentes e estruturar a comunicação utilizando props, mantendo o estado da aplicação de forma previsível.",
+    "tasksChallengesP2": "Também trabalhei com hooks do React, como useState e useEffect, para controlar atualizações de estado e sincronizar os dados com o localStorage.",
+    "tasksChallengesP3": "A navegação entre páginas utilizando React Router e o uso de parâmetros da URL foram importantes para estruturar uma aplicação com múltiplas rotas e diferentes visualizações.",
     
-    "tasksTechP1": "",
-    "tasksTechP2": ""
+    "tasksTechP1": "O projeto foi desenvolvido com React, utilizando Vite para a configuração da aplicação, React Router para navegação e Tailwind CSS para a estilização.",
+    "tasksTechP2": "Foram utilizados os hooks useState, useEffect, useNavigate e useSearchParams para gerenciamento de estado, persistência de dados, navegação e comunicação entre páginas."
 
 }

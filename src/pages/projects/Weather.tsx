@@ -29,7 +29,7 @@ function Weather() {
             
             <div>
                 <h1 className="font-display text-text-main text-6xl font-semibold">Weatherly</h1>
-                <p>{translations.weatherDescPhrase}</p>
+                <p className="mt-3">{translations.weatherDescPhrase}</p>
                 <div className="flex flex-wrap justify-start gap-2 my-4">
                     <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={reactIcon} alt="React" className="w-4"/>React</span>
                     <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={jsIcon} alt="JavaScript" className="w-4"/>JavaScript</span>

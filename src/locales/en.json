@@ -30,7 +30,6 @@
 
     "contactH2": "Let's Talk?",
     "contactP": "Open to opportunities — find me here:",
-
     
     "onGHBtn": "View on GitHub",
 
@@ -105,23 +104,22 @@
 
     "weatherTechP3": "State management was handled using the useState and useEffect hooks, which control geolocation, searches, asynchronous requests, and the switching between weather and the five-day forecast.",
 
-    "tasksDescPhrase": "",
+    "tasksDescPhrase": "Simple tasks, organized efficiently",
     
-    "tasksContextP1": "",
-    "tasksContextP2": "",
+    "tasksContextP1": "This project was developed with the goal of building a functional task management application in React, applying concepts such as shared state between components, navigation with React Router, and data persistence with localStorage.",
+    "tasksContextP2": "The goal was to build a simple interface for creating, tracking, and organizing tasks while applying state management, page navigation, and data persistence in the browser.",
     
-    "tasksDecisionP1": "",
-    "tasksDecisionP2": "",
-    "tasksDecisionP3": "", 
+    "tasksDecisionP1": "The application allows users to add tasks with a title and description, change their completion status, and remove individual items. Tasks are displayed in a simple and responsive interface, with visual feedback for completed items.",
+    "tasksDecisionP2": "Each task also has a details page, allowing users to view its complete information without losing the organization of the main task list.",
+    "tasksDecisionP3": "To structure the application, I used separate components and centralized the main state management, passing update functions to child components through props.", 
+    "tasksDecisionP4": "The details page was implemented using React Router. When selecting a task, the user is redirected to a specific route where they can view information such as the title and description, with task data accessed through URL parameters.",
+    "tasksDecisionP5": "Information persistence was implemented using localStorage, ensuring that tasks remained saved even after refreshing the page.", 
     
-    "tasksChallengesP1": "",
-    "tasksChallengesP2": "",
-    "tasksChallengesP3": "",
+    "tasksChallengesP1": "The main challenge was organizing data flow between components and structuring communication through props while keeping the application state predictable.",
+    "tasksChallengesP2": "I also worked with React hooks such as useState and useEffect to manage state updates and synchronize data with localStorage.",
+    "tasksChallengesP3": "Navigation between pages using React Router and the use of URL parameters were important steps in structuring an application with multiple routes and different views.",
     
-    "tasksTechP1": "",
-    "tasksTechP2": ""
-
-
-
+    "tasksTechP1": "The project was developed with React, using Vite for application setup, React Router for navigation, and Tailwind CSS for styling.",
+    "tasksTechP2": "The hooks useState, useEffect, useNavigate, and useSearchParams were used for state management, data persistence, navigation, and communication between pages."
 
 }

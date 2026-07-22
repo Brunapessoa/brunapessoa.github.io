@@ -102,25 +102,24 @@
 
     "weatherTechP1": "Het project is ontwikkeld met React en JavaScript, waarbij Vite werd gebruikt voor de configuratie van de applicatie en Tailwind CSS voor de styling.",
     "weatherTechP2": "De applicatie gebruikt de WeatherAPI om weergegevens op te halen en de Unsplash API om dynamische afbeeldingen van de opgezochte steden te laden. ",
-    "weatherTechP3": "Het state management werd uitgevoerd met de hooks useState en useEffect, die verantwoordelijk zijn voor het beheren van geolocatie, zoekopdrachten, asynchrone verzoeken en het wisselen tussen het huidige weer en de vijfdaagse voorspelling.",    
+    "weatherTechP3": "Het state management werd uitgevoerd met de hooks useState en useEffect, die verantwoordelijk zijn voor het beheren van geolocatie, zoekopdrachten, asynchrone verzoeken en het wisselen tussen het huidige weer en de vijfdaagse voorspelling.",      
     
+    "tasksDescPhrase": "Eenvoudige taken, efficiënt georganiseerd",
     
+    "tasksContextP1": "Dit project is ontwikkeld met als doel een functionele taakbeheerapplicatie in React te bouwen, waarbij concepten zoals gedeelde state tussen componenten, navigatie met React Router en gegevensopslag met localStorage zijn toegepast.",
+    "tasksContextP2": "Het doel was om een eenvoudige interface te creëren voor het toevoegen, beheren en organiseren van taken, waarbij state management, navigatie tussen pagina’s en gegevensopslag in de browser werden toegepast.",
     
-    "tasksDescPhrase": "",
+    "tasksDecisionP1": "De applicatie stelt gebruikers in staat om taken toe te voegen met een titel en beschrijving, de voltooiingsstatus aan te passen en individuele taken te verwijderen. Taken worden weergegeven in een eenvoudige en responsieve interface, met visuele feedback voor voltooide items.",
+    "tasksDecisionP2": "Elke taak heeft ook een detailpagina, waarmee gebruikers de volledige informatie kunnen bekijken zonder de structuur van de hoofdlijst te verliezen.",
+    "tasksDecisionP3": "Om de applicatie te structureren, heb ik gebruikgemaakt van afzonderlijke componenten en het belangrijkste state management gecentraliseerd. De functies voor het bijwerken van gegevens worden via props doorgegeven aan child components.", 
+    "tasksDecisionP4": "De detailpagina is geïmplementeerd met React Router. Wanneer een gebruiker een taak selecteert, wordt deze doorgestuurd naar een specifieke route waar informatie zoals titel en beschrijving kan worden bekeken. De taakgegevens worden hierbij opgehaald via URL-parameters.",
+    "tasksDecisionP5": "De opslag van gegevens werd geïmplementeerd met localStorage, zodat taken behouden blijven nadat de pagina opnieuw wordt geladen.", 
     
-    "tasksContextP1": "",
-    "tasksContextP2": "",
+    "tasksChallengesP1": "De grootste uitdaging was het organiseren van de datastroom tussen componenten en het structureren van communicatie via props, terwijl de applicatiestatus voorspelbaar bleef.",
+    "tasksChallengesP2": "Ik heb ook gewerkt met React hooks zoals useState en useEffect om statusupdates te beheren en gegevens te synchroniseren met localStorage.",
+    "tasksChallengesP3": "Navigatie tussen pagina’s met React Router en het gebruik van URL-parameters waren belangrijke onderdelen bij het opbouwen van een applicatie met meerdere routes en verschillende weergaven.",
     
-    "tasksDecisionP1": "",
-    "tasksDecisionP2": "",
-    "tasksDecisionP3": "", 
-    
-    "tasksChallengesP1": "",
-    "tasksChallengesP2": "",
-    "tasksChallengesP3": "",
-    
-    "tasksTechP1": "",
-    "tasksTechP2": ""
-
+    "tasksTechP1": "Het project is ontwikkeld met React, waarbij Vite werd gebruikt voor de configuratie van de applicatie, React Router voor navigatie en Tailwind CSS voor de styling.",
+    "tasksTechP2": "De hooks useState, useEffect, useNavigate en useSearchParams werden gebruikt voor state management, gegevensopslag, navigatie en communicatie tussen pagina’s."
 
 }

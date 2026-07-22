@@ -29,7 +29,7 @@ function Recipes() {
             
             <div>
                 <h1 className="font-display text-text-main text-6xl font-semibold">Favorite Recipes</h1>
-                <p>{translations.recipesDescPhrase}</p>
+                <p className="mt-3">{translations.recipesDescPhrase}</p>
                 <div className="flex flex-wrap justify-start gap-2 my-4">
                     <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={reactIcon} alt="React" className="w-4"/> React</span>
                     <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={tsIcon} alt="TypeScript" className="w-4"/> TypeScript</span>
@@ -52,7 +52,7 @@ function Recipes() {
                         <p>{translations.recipesContextP2}</p>
                     </div>
                     <div className="mx-auto">
-                        <img src={firstImgs} alt="" className=" w-80 h-auto md:w-100 mx-auto"/>
+                        <img src={firstImgs} alt="" className=" w-80 h-auto md:w-90 mx-auto"/>
                     </div>
                 </div>
                     

@@ -34,33 +34,33 @@
     "onGHBtn": "Bekijk op GitHub",
 
     "context": "De Context",
-    "descision": "Beslissingen en Proces",
+    "decision": "Beslissingen en Proces",
     "challenges": "Uitdagingen",
     "technologies": "Technologieën",
     "next": "Volgende Stappen",
 
     "planBDescPhrase": "Je eigen workoutplanner",
 
-    "planBProblemP1": "Het project begon met een eenvoudige behoefte: ik had een praktischere manier nodig om mijn trainingen bij te houden.",
-    "planBProblemP2": "Ik organiseerde mijn oefeningen met een PDF op mijn telefoon, maar het aanpassen van gewichten, het wijzigen van oefeningen en het volgen van mijn voortgang werd uiteindelijk een handmatig proces.",
-    "planBProblemP3": "Na het testen van verschillende alternatieven merkte ik dat veel apps alles tegelijk probeerden op te lossen door functies toe te voegen die ik eigenlijk niet nodig had. Ik wilde iets anders: een eenvoudige, snelle tool die zich richt op wat echt belangrijk is.",
-    "planBProblemP4": "Daarom besloot ik mijn eigen oplossing te bouwen.",
-    "planBProblemP5": "En zo is Plan B ontstaan.",
-    "planBProblemP6": "De naam vertegenwoordigt het idee achter het project: de B staat ook voor Basic. Het doel was nooit om de meest complete app op de markt te maken, maar om een eenvoudige, functionele en goed uitgevoerde oplossing te creëren — omdat een goed uitgevoerde basis vaak waardevoller is dan een perfect plan dat nooit werkelijkheid wordt.",
+    "planBContextP1": "Het project begon met een eenvoudige behoefte: ik had een praktischere manier nodig om mijn trainingen bij te houden.",
+    "planBContextP2": "Ik organiseerde mijn oefeningen met een PDF op mijn telefoon, maar het aanpassen van gewichten, het wijzigen van oefeningen en het volgen van mijn voortgang werd uiteindelijk een handmatig proces.",
+    "planBContextP3": "Na het testen van verschillende alternatieven merkte ik dat veel apps alles tegelijk probeerden op te lossen door functies toe te voegen die ik eigenlijk niet nodig had. Ik wilde iets anders: een eenvoudige, snelle tool die zich richt op wat echt belangrijk is.",
+    "planBContextP4": "Daarom besloot ik mijn eigen oplossing te bouwen.",
+    "planBContextP5": "En zo is Plan B ontstaan.",
+    "planBContextP6": "De naam vertegenwoordigt het idee achter het project: de B staat ook voor Basic. Het doel was nooit om de meest complete app op de markt te maken, maar om een eenvoudige, functionele en goed uitgevoerde oplossing te creëren — omdat een goed uitgevoerde basis vaak waardevoller is dan een perfect plan dat nooit werkelijkheid wordt.",
 
-    "planBDescisionP1": "Plan B is ontworpen als een app die tijdens trainingen gebruikt kan worden. Daarom is de interface ontwikkeld volgens een mobile-first aanpak.", 
-    "planBDescisionP2": "Het project is gebouwd met pure HTML, CSS en JavaScript, zonder frameworks. Hierdoor kon ik de fundamenten van webontwikkeling diepgaand verkennen voordat ik overstapte naar een modernere stack.",
-    "planBDescisionP3": "De app stelt gebruikers in staat om verschillende trainingen (A–E) te maken en te beheren, met functies om oefeningen toe te voegen, te bewerken en te verwijderen via een eenvoudige en directe interface.",
-    "planBDescisionP4": "Na het afronden van de webversie heb ik het project uitgebreid naar Android. Hierbij heb ik geleerd hoe het proces van configuratie, verpakking en distributie werkt met behulp van Android Studio.",
+    "planBDecisionP1": "Plan B is ontworpen als een app die tijdens trainingen gebruikt kan worden. Daarom is de interface ontwikkeld volgens een mobile-first aanpak.", 
+    "planBDecisionP2": "Het project is gebouwd met pure HTML, CSS en JavaScript, zonder frameworks. Hierdoor kon ik de fundamenten van webontwikkeling diepgaand verkennen voordat ik overstapte naar een modernere stack.",
+    "planBDecisionP3": "De app stelt gebruikers in staat om verschillende trainingen (A–E) te maken en te beheren, met functies om oefeningen toe te voegen, te bewerken en te verwijderen via een eenvoudige en directe interface.",
+    "planBDecisionP4": "Na het afronden van de webversie heb ik het project uitgebreid naar Android. Hierbij heb ik geleerd hoe het proces van configuratie, verpakking en distributie werkt met behulp van Android Studio.",
 
-    "planBChallangesP1": "De grootste uitdaging was het omzetten van een webapplicatie naar een Android-app.",
-    "planBChallangesP2": "Ik heb zelfstandig geleerd hoe ik Android Studio configureer, een APK genereer, de applicatie onderteken en voorbereid voor publicatie.",
-    "planBChallangesP3": "Momenteel doorloopt Plan B de interne tests van Google Play voordat de officiële release in de Play Store plaatsvindt.",
-    "planBChallangesP4": "Dit proces heeft mij niet alleen inzicht gegeven in de ontwikkeling van een applicatie, maar ook in een deel van de levenscyclus van het opleveren van een echt product.",
+    "planBChallengesP1": "De grootste uitdaging was het omzetten van een webapplicatie naar een Android-app.",
+    "planBChallengesP2": "Ik heb zelfstandig geleerd hoe ik Android Studio configureer, een APK genereer, de applicatie onderteken en voorbereid voor publicatie.",
+    "planBChallengesP3": "Momenteel doorloopt Plan B de interne tests van Google Play voordat de officiële release in de Play Store plaatsvindt.",
+    "planBChallengesP4": "Dit proces heeft mij niet alleen inzicht gegeven in de ontwikkeling van een applicatie, maar ook in een deel van de levenscyclus van het opleveren van een echt product.",
 
-    "planBStackP1": "Plan B is ontwikkeld met HTML5, CSS3 en pure JavaScript, zonder frameworks.",
-    "planBStackP2": "Deze keuze was bewust: ik wilde de fundamenten van webontwikkeling diepgaand begrijpen voordat ik overstapte naar een modernere stack — van DOM-manipulatie tot de CRUD-logica die is geïmplementeerd met localStorage.",
-    "planBStackP3": "Naast de webversie heb ik Android Studio gebruikt om de applicatie als Android-app te verpakken en te distribueren.",
+    "planBTechP1": "Plan B is ontwikkeld met HTML5, CSS3 en pure JavaScript, zonder frameworks.",
+    "planBTechP2": "Deze keuze was bewust: ik wilde de fundamenten van webontwikkeling diepgaand begrijpen voordat ik overstapte naar een modernere stack — van DOM-manipulatie tot de CRUD-logica die is geïmplementeerd met localStorage.",
+    "planBTechP3": "Naast de webversie heb ik Android Studio gebruikt om de applicatie als Android-app te verpakken en te distribueren.",
     
     "planBNextP1": "Plan B blijft zich ontwikkelen.",
     "planBNextP2": "De volgende stap is om de applicatie te refactoren met React, TypeScript en Tailwind CSS, waardoor een beter schaalbare structuur ontstaat die voorbereid is op toekomstige functies.",
@@ -68,26 +68,21 @@
     "planBNextP4": "Het idee is om de app verder uit te breiden zonder het concept te verliezen waarmee het project begon: een eenvoudige en gerichte ervaring behouden, terwijl de implementatie steeds robuuster wordt.",
 
         
-    "recipesDescPhrase": "",
+    "recipesDescPhrase": "Ontdek je volgende favoriete recept",
 
-    "recipesContextP1": "",
-    "recipesContextP2": "",
+    "recipesContextP1": "Favorite Recipes is ontstaan vanuit de keuze om TypeScript toe te passen in een echt project. Het doel was om een functionele applicatie te bouwen, waarbij statische typering werd toegepast in een praktische context met gegevens uit een openbare API, optionele eigenschappen en integratie met React.",
+    "recipesContextP2": "Daarnaast verkent het project het beheren van asynchrone verzoeken en de ontwikkeling van een responsieve interface voor het zoeken en bekijken van recepten.",
 
-    "recipesDescisionP1": "",
-    "recipesDescisionP2": "",
-    "recipesDescisionP3": "", 
+    "recipesDecisionP1": "De applicatie is ontworpen om een eenvoudige en directe zoekervaring te bieden. Gebruikers kunnen recepten zoeken op naam en de resultaten worden weergegeven in een responsief card-grid met de afbeelding, categorie en oorsprong van het recept.",
+    "recipesDecisionP2": "Om de zoekcontext te behouden, worden de details van een recept weergegeven in een modal. Hierdoor kunnen gebruikers ingrediënten en bereidingsinstructies bekijken zonder de resultatenlijst te verlaten.",
+    "recipesDecisionP3": "Ik heb de bereidingsinstructies ook opnieuw georganiseerd in aparte paragrafen, zodat de inhoud gemakkelijker te lezen en te volgen is.", 
 
-    "recipesChallangesP1": "",
-    "recipesChallangesP2": "",
-    "recipesChallangesP3": "",
+    "recipesChallengesP1": "De grootste uitdaging was het werken met de datastructuur van de TheMealDB API. Ingrediënten en hoeveelheden worden verdeeld over meerdere onafhankelijke velden, waarvan veel leeg zijn. Om deze gegevens bruikbaar te maken in de interface, heb ik een transformatie geïmplementeerd die deze waarden samenvoegt tot één lijst en automatisch lege of ontbrekende waarden verwijdert voordat ze worden weergegeven.",
+    "recipesChallengesP2": "Een andere belangrijke leerervaring was het gebruiken van TypeScript om interfaces te definiëren, API-responses te typeren en veilig om te gaan met optionele eigenschappen. Hierdoor werd de code voorspelbaarder en beter onderhoudbaar.",
+    "recipesChallengesP3": "Daarnaast zijn laadstatussen, foutafhandeling en conditionele rendering geïmplementeerd om een consistente ervaring tijdens zoekopdrachten te bieden.",
 
-    "recipesTechP1": "",
-    "recipesTechP2": "",
-
-    
-    
-    
-    
+    "recipesTechP1": "Het project is ontwikkeld met React en TypeScript, waarbij Vite werd gebruikt voor de configuratie van de applicatie en Tailwind CSS voor de styling.",
+    "recipesTechP2": "De applicatie gebruikt de TheMealDB API om recepten en hun details op te halen. Het state management werd uitgevoerd met de hooks useState en useEffect, die verantwoordelijk zijn voor zoekopdrachten, asynchrone verzoeken, het openen van de modal en dynamische updates van de interface.", 
     
     "weatherDescPhrase": "Een weersvoorspelling waarop je kunt vertrouwen",
 
@@ -95,15 +90,15 @@
     "weatherContextP2": "Voor dit project wilde ik een meer visuele en intuïtieve ervaring creëren, zodat gebruikers snel inzicht krijgen in het weer op een locatie en zich tegelijkertijd meer verbonden voelen met de stad waarnaar ze hebben gezocht.",
     "weatherContextP3": "Het project verkent ook het gebruik van meerdere externe API's, het verwerken van asynchrone verzoeken en het dynamisch bijwerken van de interface met React.",
 
-    "weatherDescisionP1": "De ervaring is ontworpen om het aantal acties dat de gebruiker moet uitvoeren te verminderen:",
+    "weatherDecisionP1": "De ervaring is ontworpen om het aantal acties dat de gebruiker moet uitvoeren te verminderen:",
     
-    "weatherDescisionP2": "Bij het openen van de applicatie identificeert de native Geolocation API van de browser automatisch de huidige locatie en toont de weersinformatie. Wanneer de gebruiker geen toestemming geeft of een andere locatie wil zoeken, blijft de handmatige zoekfunctie beschikbaar via het formulier, met ondersteuning voor zowel een klik op de knop als de Enter-toets.",
-    "weatherDescisionP3": "Om de interface aantrekkelijker te maken, heb ik de Unsplash API geïntegreerd om de achtergrond dynamisch te veranderen met een echte afbeelding van de opgezochte stad. In plaats van alleen gegevens weer te geven in een traditionele kaart, creëert de applicatie een visuele verbinding met de gekozen locatie.",
-    "weatherDescisionP4": "Ik heb ook een schakelaar geïmplementeerd tussen het huidige weer en de voorspelling voor de komende vijf dagen. De voorspelling is opgebouwd met CSS Grid, waarbij datums en maximale en minimale temperaturen in kolommen worden georganiseerd om de informatie overzichtelijker te maken en gemakkelijker te vergelijken.", 
+    "weatherDecisionP2": "Bij het openen van de applicatie identificeert de native Geolocation API van de browser automatisch de huidige locatie en toont de weersinformatie. Wanneer de gebruiker geen toestemming geeft of een andere locatie wil zoeken, blijft de handmatige zoekfunctie beschikbaar via het formulier, met ondersteuning voor zowel een klik op de knop als de Enter-toets.",
+    "weatherDecisionP3": "Om de interface aantrekkelijker te maken, heb ik de Unsplash API geïntegreerd om de achtergrond dynamisch te veranderen met een echte afbeelding van de opgezochte stad. In plaats van alleen gegevens weer te geven in een traditionele kaart, creëert de applicatie een visuele verbinding met de gekozen locatie.",
+    "weatherDecisionP4": "Ik heb ook een schakelaar geïmplementeerd tussen het huidige weer en de voorspelling voor de komende vijf dagen. De voorspelling is opgebouwd met CSS Grid, waarbij datums en maximale en minimale temperaturen in kolommen worden georganiseerd om de informatie overzichtelijker te maken en gemakkelijker te vergelijken.", 
 
-    "weatherChallangesP1": "Een van de grootste uitdagingen was het waarborgen van de leesbaarheid van de inhoud over verschillende achtergrondafbeeldingen. Omdat elke stad foto’s heeft met verschillende visuele kenmerken, was het nodig om een consistente oplossing te creëren met behulp van transparante overlays en text-shadow om voldoende contrast te behouden.",
-    "weatherChallangesP2": "Een andere uitdaging was het omgaan met verschillende applicatiestatussen zonder de gebruikerservaring negatief te beïnvloeden. Er zijn laadstatussen en specifieke meldingen geïmplementeerd voor situaties zoals een niet gevonden stad of geweigerde geolocatie-toestemming.",
-    "weatherChallangesP3": "Tijdens de ontwikkeling heb ik ook gewerkt aan het verwerken van gegevens uit de API’s, het organiseren van asynchrone verzoeken en het bijwerken van de applicatiestatus wanneer nieuwe zoekopdrachten werden uitgevoerd.",
+    "weatherChallengesP1": "Een van de grootste uitdagingen was het waarborgen van de leesbaarheid van de inhoud over verschillende achtergrondafbeeldingen. Omdat elke stad foto’s heeft met verschillende visuele kenmerken, was het nodig om een consistente oplossing te creëren met behulp van transparante overlays en text-shadow om voldoende contrast te behouden.",
+    "weatherChallengesP2": "Een andere uitdaging was het omgaan met verschillende applicatiestatussen zonder de gebruikerservaring negatief te beïnvloeden. Er zijn laadstatussen en specifieke meldingen geïmplementeerd voor situaties zoals een niet gevonden stad of geweigerde geolocatie-toestemming.",
+    "weatherChallengesP3": "Tijdens de ontwikkeling heb ik ook gewerkt aan het verwerken van gegevens uit de API’s, het organiseren van asynchrone verzoeken en het bijwerken van de applicatiestatus wanneer nieuwe zoekopdrachten werden uitgevoerd.",
 
     "weatherTechP1": "Het project is ontwikkeld met React en JavaScript, waarbij Vite werd gebruikt voor de configuratie van de applicatie en Tailwind CSS voor de styling.",
     "weatherTechP2": "De applicatie gebruikt de WeatherAPI om weergegevens op te halen en de Unsplash API om dynamische afbeeldingen van de opgezochte steden te laden. ",
@@ -116,13 +111,13 @@
     "tasksContextP1": "",
     "tasksContextP2": "",
     
-    "tasksDescisionP1": "",
-    "tasksDescisionP2": "",
-    "tasksDescisionP3": "", 
+    "tasksDecisionP1": "",
+    "tasksDecisionP2": "",
+    "tasksDecisionP3": "", 
     
-    "tasksChallangesP1": "",
-    "tasksChallangesP2": "",
-    "tasksChallangesP3": "",
+    "tasksChallengesP1": "",
+    "tasksChallengesP2": "",
+    "tasksChallengesP3": "",
     
     "tasksTechP1": "",
     "tasksTechP2": ""

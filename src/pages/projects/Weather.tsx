@@ -52,16 +52,16 @@ function Weather() {
                         <p>{translations.weatherContextP3}</p>
                     </div>
                     <div className="mx-auto">
-                        <img src={frameNY} alt="" className=" w-80 h-auto overflow-hidden md:w-120 mx-auto md:order-last"/>
+                        <img src={frameNY} alt="" className=" w-80 h-auto md:w-120 mx-auto"/>
                     </div>
                 </div>
                     
                 <div className="flex flex-col gap-5 border-l-2 border-accent pl-5 md:items-start">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.descision}</h2>
-                        <p>{translations.weatherDescisionP1}</p>
-                        <p>{translations.weatherDescisionP2}</p>
-                        <p>{translations.weatherDescisionP3}</p>
-                        <p>{translations.weatherDescisionP4}</p>
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.decision}</h2>
+                        <p>{translations.weatherDecisionP1}</p>
+                        <p>{translations.weatherDecisionP2}</p>
+                        <p>{translations.weatherDecisionP3}</p>
+                        <p>{translations.weatherDecisionP4}</p>
                     </div>
 
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
@@ -69,9 +69,9 @@ function Weather() {
 
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">{translations.challenges}</h2>
-                        <p>{translations.weatherChallangesP1}</p>
-                        <p>{translations.weatherChallangesP2}</p>
-                        <p>{translations.weatherChallangesP3}</p>
+                        <p>{translations.weatherChallengesP1}</p>
+                        <p>{translations.weatherChallengesP2}</p>
+                        <p>{translations.weatherChallengesP3}</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">

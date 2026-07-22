@@ -35,59 +35,55 @@
     "onGHBtn": "Ver no GitHub",
 
     "context": "O Contexto",
-    "descision": "Decisões e Processo",
+    "decision": "Decisões e Processo",
     "challenges": "Desafios",
     "technologies": "Tecnologias",
     "next": "Próximas Etapas",
 
     "planBDescPhrase": "Seu organizador de treinos",
 
-    "planBProblemP1": "O projeto começou com um problema simples: eu precisava de uma forma mais prática de acompanhar meus treinos.",
-    "planBProblemP2": "Eu costumava organizar meus exercícios usando um PDF no celular, mas atualizar pesos, alterar exercícios e acompanhar minha evolução acabava sendo um processo manual.",
-    "planBProblemP3": "Depois de testar algumas alternativas, percebi que muitos aplicativos tentavam resolver tudo ao mesmo tempo, adicionando funcionalidades que eu não precisava. Eu queria algo diferente: uma ferramenta simples, rápida e focada no essencial.",
-    "planBProblemP4": "Então decidi construir minha própria solução.",
-    "planBProblemP5": "Assim que nasceu o Plan B.",
-    "planBProblemP6": "O nome representa a ideia por trás do projeto: o B também é de Básico. A proposta nunca foi criar o aplicativo mais completo do mercado, mas sim uma solução simples, funcional e bem executada — porque, muitas vezes, um básico bem feito é mais útil do que um plano perfeito que nunca sai do papel.",
+    "planBContextP1": "O projeto começou com um problema simples: eu precisava de uma forma mais prática de acompanhar meus treinos.",
+    "planBContextP2": "Eu costumava organizar meus exercícios usando um PDF no celular, mas atualizar pesos, alterar exercícios e acompanhar minha evolução acabava sendo um processo manual.",
+    "planBContextP3": "Depois de testar algumas alternativas, percebi que muitos aplicativos tentavam resolver tudo ao mesmo tempo, adicionando funcionalidades que eu não precisava. Eu queria algo diferente: uma ferramenta simples, rápida e focada no essencial.",
+    "planBContextP4": "Então decidi construir minha própria solução.",
+    "planBContextP5": "Assim que nasceu o Plan B.",
+    "planBContextP6": "O nome representa a ideia por trás do projeto: o B também é de Básico. A proposta nunca foi criar o aplicativo mais completo do mercado, mas sim uma solução simples, funcional e bem executada — porque, muitas vezes, um básico bem feito é mais útil do que um plano perfeito que nunca sai do papel.",
 
-    "planBDescisionP1": "O Plan B foi pensado como um aplicativo para uso durante o treino, por isso a interface foi desenvolvida seguindo uma abordagem mobile-first.", 
-    "planBDescisionP2": "O projeto foi desenvolvido com HTML, CSS e JavaScript puro, sem frameworks, permitindo explorar profundamente os fundamentos da web antes de evoluir para uma stack mais moderna.",
-    "planBDescisionP3": "O aplicativo permite criar e gerenciar diferentes treinos (A–E), com funcionalidades para adicionar, editar e remover exercícios através de uma interface simples e direta.",
-    "planBDescisionP4": "Após finalizar a versão web, expandi o projeto para Android, aprendendo o processo de configuração, empacotamento e distribuição utilizando o Android Studio.",
+    "planBDecisionP1": "O Plan B foi pensado como um aplicativo para uso durante o treino, por isso a interface foi desenvolvida seguindo uma abordagem mobile-first.", 
+    "planBDecisionP2": "O projeto foi desenvolvido com HTML, CSS e JavaScript puro, sem frameworks, permitindo explorar profundamente os fundamentos da web antes de evoluir para uma stack mais moderna.",
+    "planBDecisionP3": "O aplicativo permite criar e gerenciar diferentes treinos (A–E), com funcionalidades para adicionar, editar e remover exercícios através de uma interface simples e direta.",
+    "planBDecisionP4": "Após finalizar a versão web, expandi o projeto para Android, aprendendo o processo de configuração, empacotamento e distribuição utilizando o Android Studio.",
 
-    "planBChallangesP1": "O principal desafio foi transformar uma aplicação web em um aplicativo Android.",
-    "planBChallangesP2": "Aprendi de forma independente o processo de configuração do Android Studio, geração do APK, assinatura da aplicação e preparação para publicação.",
-    "planBChallangesP3": "Atualmente, o Plan B está passando pelos testes internos da Google Play antes da publicação oficial na Play Store.",
-    "planBChallangesP4": "Esse processo me permitiu conhecer não apenas o desenvolvimento de uma aplicação, mas também parte do ciclo de entrega de um produto real.",
+    "planBChallengesP1": "O principal desafio foi transformar uma aplicação web em um aplicativo Android.",
+    "planBChallengesP2": "Aprendi de forma independente o processo de configuração do Android Studio, geração do APK, assinatura da aplicação e preparação para publicação.",
+    "planBChallengesP3": "Atualmente, o Plan B está passando pelos testes internos da Google Play antes da publicação oficial na Play Store.",
+    "planBChallengesP4": "Esse processo me permitiu conhecer não apenas o desenvolvimento de uma aplicação, mas também parte do ciclo de entrega de um produto real.",
 
-    "planBStackP1": "O Plan B foi desenvolvido com HTML5, CSS3 e JavaScript puro, sem frameworks.",
-    "planBStackP2": "Essa escolha foi intencional: queria entender os fundamentos da web em profundidade antes de evoluir para uma stack mais moderna — desde a manipulação do DOM até a lógica de CRUD implementada com localStorage.",
-    "planBStackP3": "Além da versão web, utilizei o Android Studio para empacotar e distribuir a aplicação como um app Android.",
+    "planBTechP1": "O Plan B foi desenvolvido com HTML5, CSS3 e JavaScript puro, sem frameworks.",
+    "planBTechP2": "Essa escolha foi intencional: queria entender os fundamentos da web em profundidade antes de evoluir para uma stack mais moderna — desde a manipulação do DOM até a lógica de CRUD implementada com localStorage.",
+    "planBTechP3": "Além da versão web, utilizei o Android Studio para empacotar e distribuir a aplicação como um app Android.",
     
     "planBNextP1": "O Plan B continua evoluindo.",
     "planBNextP2": "O próximo passo é refatorar a aplicação utilizando React, TypeScript e Tailwind CSS, criando uma estrutura mais escalável e preparada para novas funcionalidades.",
     "planBNextP3": "Com essa nova base, pretendo evoluir a experiência do usuário adicionando recursos como a seleção do treino do dia, permitindo que o usuário visualize apenas a rotina escolhida, e o registro da última execução de cada treino através do botão Done ao final da sessão.",
     "planBNextP4": "A ideia é continuar expandindo o aplicativo sem perder o conceito que deu origem ao projeto: manter uma experiência simples e objetiva, enquanto a implementação se torna cada vez mais robusta.",
         
-    "recipesDescPhrase": "",
+    "recipesDescPhrase": "Encontre sua próxima receita favorita",
 
-    "recipesContextP1": "",
-    "recipesContextP2": "",
+    "recipesContextP1": "O Favorite Recipes nasceu da decisão de aplicar TypeScript em um projeto real. O objetivo era construir uma aplicação funcional, utilizando tipagem em um contexto prático com dados de uma API pública, propriedades opcionais e integração com React. ",
 
-    "recipesDescisionP1": "",
-    "recipesDescisionP2": "",
-    "recipesDescisionP3": "", 
+    "recipesContextP2": "O projeto também explorou o gerenciamento de requisições assíncronas e a construção de uma interface responsiva para busca e visualização de receitas.",
 
-    "recipesChallangesP1": "",
-    "recipesChallangesP2": "",
-    "recipesChallangesP3": "",
+    "recipesDecisionP1": "A aplicação foi desenvolvida para oferecer uma experiência de busca simples e direta. O usuário pesquisa receitas pelo nome e os resultados são exibidos em um grid responsivo de cards com imagem, categoria e origem da receita.",
+    "recipesDecisionP2": "Para manter o contexto da pesquisa, os detalhes da receita são exibidos em um modal, permitindo consultar ingredientes e modo de preparo sem sair da lista de resultados.",
+    "recipesDecisionP3": "Também reorganizei as instruções de preparo em parágrafos para tornar a leitura mais confortável e facilitar o acompanhamento da receita.", 
 
-    "recipesTechP1": "",
-    "recipesTechP2": "",
+    "recipesChallengesP1": "O principal desafio foi trabalhar com a estrutura de dados da TheMealDB API. Ingredientes e medidas são distribuídos em diversos campos independentes, muitos deles vazios. Para tornar esses dados utilizáveis na interface, implementei uma transformação que combina essas informações em uma única lista, removendo automaticamente valores nulos ou vazios antes da renderização.",
+    "recipesChallengesP2": "Outro aprendizado importante foi utilizar TypeScript para definir interfaces, tipar as respostas da API e lidar com propriedades opcionais de forma segura, tornando o código mais previsível e fácil de manter.",
+    "recipesChallengesP3": "Também foram implementados estados de carregamento, tratamento de erros e renderização condicional para garantir uma experiência consistente durante as buscas.",
 
-
-
-
-
+    "recipesTechP1": "O projeto foi desenvolvido com React e TypeScript, utilizando Vite para a configuração da aplicação e Tailwind CSS para a estilização.",
+    "recipesTechP2": "A aplicação consome a TheMealDB API para buscar receitas e seus detalhes. O gerenciamento do estado foi realizado com os hooks useState e useEffect, responsáveis pelo controle das buscas, requisições assíncronas, abertura do modal e atualização dinâmica da interface.",
 
     "weatherDescPhrase": "Previsão em que você pode confiar",
 
@@ -97,17 +93,17 @@
 
     "weatherContextP3": "O projeto também explora o consumo de múltiplas APIs externas, gerenciamento de requisições assíncronas e atualização dinâmica da interface com React.",
 
-    "weatherDescisionP1": "A experiência foi pensada para reduzir a quantidade de ações necessárias do usuário:",
+    "weatherDecisionP1": "A experiência foi pensada para reduzir a quantidade de ações necessárias do usuário:",
     
     
-    "weatherDescisionP2":"Ao abrir a aplicação, a Geolocation API nativa do navegador identifica automaticamente a localização atual e exibe as informações meteorológicas. Caso o usuário negue a permissão ou queira consultar outro local, a busca manual por cidade fica disponível através do formulário, com suporte tanto ao clique quanto à tecla Enter.",
+    "weatherDecisionP2":"Ao abrir a aplicação, a Geolocation API nativa do navegador identifica automaticamente a localização atual e exibe as informações meteorológicas. Caso o usuário negue a permissão ou queira consultar outro local, a busca manual por cidade fica disponível através do formulário, com suporte tanto ao clique quanto à tecla Enter.",
 
-    "weatherDescisionP3": "Para tornar a interface mais envolvente, integrei a Unsplash API para atualizar o plano de fundo com uma imagem real da cidade pesquisada. Em vez de exibir apenas dados em um card tradicional, a aplicação cria uma conexão visual com o local consultado.",
-    "weatherDescisionP4": "Também implementei um alternador entre o clima atual e a previsão dos próximos cinco dias. A previsão foi estruturada utilizando CSS Grid, organizando datas e temperaturas máximas e mínimas em colunas para facilitar a leitura e comparação das informações.", 
+    "weatherDecisionP3": "Para tornar a interface mais envolvente, integrei a Unsplash API para atualizar o plano de fundo com uma imagem real da cidade pesquisada. Em vez de exibir apenas dados em um card tradicional, a aplicação cria uma conexão visual com o local consultado.",
+    "weatherDecisionP4": "Também implementei um alternador entre o clima atual e a previsão dos próximos cinco dias. A previsão foi estruturada utilizando CSS Grid, organizando datas e temperaturas máximas e mínimas em colunas para facilitar a leitura e comparação das informações.", 
 
-    "weatherChallangesP1": "Um dos principais desafios foi garantir a legibilidade do conteúdo sobre diferentes imagens de fundo. Como cada cidade possui fotos com características visuais diferentes, foi necessário criar uma solução consistente utilizando overlays translúcidos e text-shadow para manter o contraste adequado.",
-    "weatherChallangesP2": "Outro desafio foi lidar com diferentes estados da aplicação sem comprometer a experiência do usuário. Foram implementados estados de carregamento e mensagens específicas para situações como cidade não encontrada e permissão de geolocalização negada.",
-    "weatherChallangesP3": "Durante o desenvolvimento, também trabalhei com o tratamento de dados vindos das APIs, organização das requisições assíncronas e atualização dos estados da aplicação conforme novas pesquisas eram realizadas.",
+    "weatherChallengesP1": "Um dos principais desafios foi garantir a legibilidade do conteúdo sobre diferentes imagens de fundo. Como cada cidade possui fotos com características visuais diferentes, foi necessário criar uma solução consistente utilizando overlays translúcidos e text-shadow para manter o contraste adequado.",
+    "weatherChallengesP2": "Outro desafio foi lidar com diferentes estados da aplicação sem comprometer a experiência do usuário. Foram implementados estados de carregamento e mensagens específicas para situações como cidade não encontrada e permissão de geolocalização negada.",
+    "weatherChallengesP3": "Durante o desenvolvimento, também trabalhei com o tratamento de dados vindos das APIs, organização das requisições assíncronas e atualização dos estados da aplicação conforme novas pesquisas eram realizadas.",
 
     "weatherTechP1": "O projeto foi desenvolvido com React e JavaScript, utilizando Vite para a configuração da aplicação e Tailwind CSS para a estilização.",
     "weatherTechP2": "A aplicação consome a WeatherAPI para obter os dados meteorológicos e a Unsplash API para carregar imagens dinâmicas das cidades pesquisadas.",
@@ -119,13 +115,13 @@
     "tasksContextP1": "",
     "tasksContextP2": "",
     
-    "tasksDescisionP1": "",
-    "tasksDescisionP2": "",
-    "tasksDescisionP3": "", 
+    "tasksDecisionP1": "",
+    "tasksDecisionP2": "",
+    "tasksDecisionP3": "", 
     
-    "tasksChallangesP1": "",
-    "tasksChallangesP2": "",
-    "tasksChallangesP3": "",
+    "tasksChallengesP1": "",
+    "tasksChallengesP2": "",
+    "tasksChallengesP3": "",
     
     "tasksTechP1": "",
     "tasksTechP2": ""

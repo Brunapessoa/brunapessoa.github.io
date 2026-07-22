@@ -49,17 +49,17 @@ function PlanB() {
 
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">{translations.context}</h2>
-                        <p>{translations.planBProblemP1}
+                        <p>{translations.planBContextP1}
                         </p>
-                        <p>{translations.planBProblemP2}
+                        <p>{translations.planBContextP2}
                         </p>
-                        <p>{translations.planBProblemP3}
+                        <p>{translations.planBContextP3}
                         </p>
-                        <p>{translations.planBProblemP4}
+                        <p>{translations.planBContextP4}
                         </p>
-                        <p>{translations.planBProblemP5}
+                        <p>{translations.planBContextP5}
                         </p>
-                        <p>{translations.planBProblemP6}
+                        <p>{translations.planBContextP6}
                         </p>
                     </div>
                     <div className="mx-auto w-62.5 h-auto overflow-hidden">
@@ -67,30 +67,30 @@ function PlanB() {
                     </div>
                 </div>
                 <div className="flex flex-col gap-5 border-l-2 border-accent pl-5 md:items-start">
-                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.descision}</h2>
-                        <p>{translations.planBDescisionP1}</p>
-                        <p>{translations.planBDescisionP2}</p>
-                        <p>{translations.planBDescisionP3}</p>
-                        <p>{translations.planBDescisionP4}</p>
+                        <h2 className="font-bold font-sans text-text-main text-2xl">{translations.decision}</h2>
+                        <p>{translations.planBDecisionP1}</p>
+                        <p>{translations.planBDecisionP2}</p>
+                        <p>{translations.planBDecisionP3}</p>
+                        <p>{translations.planBDecisionP4}</p>
                 </div>
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
                     <img src={frameImgs} alt="" className="w-80 mx-auto"/>
 
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">{translations.challenges}</h2>
-                        <p>{translations.planBChallangesP1}</p>
-                        <p>{translations.planBChallangesP2}</p>
-                        <p>{translations.planBChallangesP3}</p>
-                        <p>{translations.planBChallangesP4}</p>
+                        <p>{translations.planBChallengesP1}</p>
+                        <p>{translations.planBChallengesP2}</p>
+                        <p>{translations.planBChallengesP3}</p>
+                        <p>{translations.planBChallengesP4}</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center">
                     <img src={workout} alt="" className=" mx-auto rounded-lg border border-border w-62 md:order-last" />
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">{translations.technologies}</h2>
-                        <p>{translations.planBStackP1}</p>
-                        <p>{translations.planBStackP2}</p>
-                        <p>{translations.planBStackP3}</p>
+                        <p>{translations.planBTechP1}</p>
+                        <p>{translations.planBTechP2}</p>
+                        <p>{translations.planBTechP3}</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">

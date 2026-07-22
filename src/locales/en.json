@@ -22,88 +22,83 @@
     
     "planBDesc": "Workout tracking app",
 
-    "RecipeDesc": "Recipe search page powered by TheMealDB API",
+    "recipeDesc": "Recipe search page powered by TheMealDB API",
 
-    "WeatherDesc": "Weather forecast app using WeatherAPI and Unsplash",
+    "weatherDesc": "Weather forecast app using WeatherAPI and Unsplash",
 
-    "TasksDesc": "Task management app",
+    "tasksDesc": "Task management app",
 
     "contactH2": "Let's Talk?",
     "contactP": "Open to opportunities — find me here:",
 
     
-    "onGHBtn": "View on Github",
+    "onGHBtn": "View on GitHub",
 
     "context": "The Context",
-    "descision": "Decisions and Process",
+    "decision": "Decisions and Process",
     "challenges": "Challenges",
     "technologies": "Technologies",
     "next": "Next Steps",
 
     "planBDescPhrase": "Your own workout planner",
 
-    "planBProblemP1": "The project started with a simple problem: I needed a more practical way to track my workouts.",
-    "planBProblemP2": "I used to organize my exercises using a PDF on my phone, but updating weights, changing exercises, and tracking my progress eventually became a manual process.",
-    "planBProblemP3": "After trying different alternatives, I realized that many apps tried to solve everything at once, adding features that I simply didn’t need. I wanted something different: a simple, fast tool focused on what really matters.",
-    "planBProblemP4": "So I decided to build my own solution.",
-    "planBProblemP5": "And that’s how Plan B was born.",
-    "planBProblemP6": "The name represents the idea behind the project: the B also stands for Basic. The goal was never to create the most complete app on the market, but rather a simple, functional, and well-executed solution — because, many times, a well-done basic solution is more useful than a perfect plan that never becomes reality.",
+    "planBContextP1": "The project started with a simple problem: I needed a more practical way to track my workouts.",
+    "planBContextP2": "I used to organize my exercises using a PDF on my phone, but updating weights, changing exercises, and tracking my progress eventually became a manual process.",
+    "planBContextP3": "After trying different alternatives, I realized that many apps tried to solve everything at once, adding features that I simply didn’t need. I wanted something different: a simple, fast tool focused on what really matters.",
+    "planBContextP4": "So I decided to build my own solution.",
+    "planBContextP5": "And that’s how Plan B was born.",
+    "planBContextP6": "The name represents the idea behind the project: the B also stands for Basic. The goal was never to create the most complete app on the market, but rather a simple, functional, and well-executed solution — because, many times, a well-done basic solution is more useful than a perfect plan that never becomes reality.",
 
-    "planBDescisionP1": "Plan B was designed as an app to be used during workouts, which is why the interface was developed following a mobile-first approach.", 
-    "planBDescisionP2": "The project was built using pure HTML, CSS, and JavaScript, without frameworks, allowing me to deeply explore web fundamentals before moving to a more modern stack.",
-    "planBDescisionP3": "The app allows users to create and manage different workouts (A–E), with features to add, edit, and remove exercises through a simple and straightforward interface.",
-    "planBDescisionP4": "After completing the web version, I expanded the project to Android, learning the process of configuring, packaging, and distributing the application using Android Studio.",
+    "planBDecisionP1": "Plan B was designed as an app to be used during workouts, which is why the interface was developed following a mobile-first approach.", 
+    "planBDecisionP2": "The project was built using pure HTML, CSS, and JavaScript, without frameworks, allowing me to deeply explore web fundamentals before moving to a more modern stack.",
+    "planBDecisionP3": "The app allows users to create and manage different workouts (A–E), with features to add, edit, and remove exercises through a simple and straightforward interface.",
+    "planBDecisionP4": "After completing the web version, I expanded the project to Android, learning the process of configuring, packaging, and distributing the application using Android Studio.",
 
-    "planBChallangesP1": "The main challenge was transforming a web application into an Android app.",
-    "planBChallangesP2": "I independently learned the process of configuring Android Studio, generating the APK, signing the application, and preparing it for publication.",
-    "planBChallangesP3": "Currently, Plan B is going through Google Play internal testing before its official release on the Play Store.",
-    "planBChallangesP4": "This process allowed me to understand not only application development but also part of the lifecycle involved in delivering a real product.",
+    "planBChallengesP1": "The main challenge was transforming a web application into an Android app.",
+    "planBChallengesP2": "I independently learned the process of configuring Android Studio, generating the APK, signing the application, and preparing it for publication.",
+    "planBChallengesP3": "Currently, Plan B is going through Google Play internal testing before its official release on the Play Store.",
+    "planBChallengesP4": "This process allowed me to understand not only application development but also part of the lifecycle involved in delivering a real product.",
 
-    "planBStackP1": "Plan B was developed using HTML5, CSS3, and pure JavaScript, without frameworks.",
-    "planBStackP2": "This choice was intentional: I wanted to deeply understand web fundamentals before moving to a more modern stack — from DOM manipulation to the CRUD logic implemented with localStorage.",
-    "planBStackP3": "Besides the web version, I used Android Studio to package and distribute the application as an Android app.",
+    "planBTechP1": "Plan B was developed using HTML5, CSS3, and pure JavaScript, without frameworks.",
+    "planBTechP2": "This choice was intentional: I wanted to deeply understand web fundamentals before moving to a more modern stack — from DOM manipulation to the CRUD logic implemented with localStorage.",
+    "planBTechP3": "Besides the web version, I used Android Studio to package and distribute the application as an Android app.",
     
     "planBNextP1": "Plan B continues to evolve.",
     "planBNextP2": "The next step is to refactor the application using React, TypeScript, and Tailwind CSS, creating a more scalable structure prepared for future features.",
     "planBNextP3": "With this new foundation, I plan to improve the user experience by adding features such as selecting the workout of the day, allowing users to view only the chosen routine, and recording the last time each workout was completed through the Done button at the end of the session.",
     "planBNextP4": "The idea is to keep expanding the app without losing the concept that started the project: maintaining a simple and focused experience while making the implementation increasingly robust.",
     
-    "recipesDescPhrase": "",
+    "recipesDescPhrase": "Find your next favorite recipe",
 
-    "recipesContextP1": "",
-    "recipesContextP2": "",
-    "recipesContextP3": "",
+    "recipesContextP1": "Favorite Recipes was created as an opportunity to apply TypeScript in a real-world project. The goal was to build a functional application, using static typing in a practical context with data from a public API, optional properties, and React integration. ",
+    "recipesContextP2": "The project also explored asynchronous request handling and the development of a responsive interface for searching and browsing recipes.",
 
-    "recipesDescisionP1": "",
-    "recipesDescisionP2": "",
-    "recipesDescisionP3": "", 
+    "recipesDecisionP1": "The application was designed to provide a simple and straightforward search experience. Users can search for recipes by name, and the results are displayed in a responsive card grid containing the recipe image, category, and origin.",
+    "recipesDecisionP2": "To keep the search context, recipe details are displayed in a modal, allowing users to view ingredients and cooking instructions without leaving the results list.",
+    "recipesDecisionP3": "I also reorganized the cooking instructions into separate paragraphs to make the content easier to read and follow.", 
 
-    "recipesChallangesP1": "",
-    "recipesChallangesP2": "",
-    "recipesChallangesP3": "",
+    "recipesChallengesP1": "The main challenge was working with the data structure provided by TheMealDB API. Ingredients and measurements are distributed across multiple independent fields, many of which are empty. To make this data usable in the interface, I implemented a transformation that combines these values into a single list, automatically removing null or empty fields before rendering.",
+    "recipesChallengesP2": "Another important learning experience was using TypeScript to define interfaces, type API responses, and safely handle optional properties, making the code more predictable and maintainable.",
+    "recipesChallengesP3": "Loading states, error handling, and conditional rendering were also implemented to provide a more consistent experience during searches.",
 
-    "recipesTechP1": "",
-    "recipesTechP2": "",
-
-    
-    
-    
-    
+    "recipesTechP1": "The project was developed with React and TypeScript, using Vite for application setup and Tailwind CSS for styling.",
+    "recipesTechP2": "The application consumes TheMealDB API to retrieve recipes and their details. State management was handled using the useState and useEffect hooks, which control searches, asynchronous requests, modal visibility, and dynamic interface updates.",
+     
     "weatherDescPhrase": "Forecast you can trust",
 
     "weatherContextP1": "Most weather forecast applications present weather information in a very straightforward way, usually focusing only on numbers and lists.",
     "weatherContextP2": "For this project, I wanted to create a more visual and intuitive experience, allowing users to quickly understand the weather conditions of a location while also feeling more connected to the city they searched for.",
     "weatherContextP3": "The project also explores the use of multiple external APIs, asynchronous request handling, and dynamic interface updates with React.",
 
-    "weatherDescisionP1": "The experience was designed to reduce the number of actions required from the user:",
+    "weatherDecisionP1": "The experience was designed to reduce the number of actions required from the user:",
     
-    "weatherDescisionP2": "When opening the application, the browser’s native Geolocation API automatically identifies the current location and displays the weather information. If the user denies permission or wants to search for another location, the manual city search remains available through the form, with support for both clicking the button and pressing the Enter key.",
-    "weatherDescisionP3": "To make the interface more engaging, I integrated the Unsplash API to dynamically update the background with a real image of the searched city. Instead of displaying only data inside a traditional card, the application creates a visual connection with the selected location.",
-    "weatherDescisionP4": "I also implemented a switch between the current weather and the forecast for the next five days. The forecast was structured using CSS Grid, organizing dates and maximum and minimum temperatures into columns to make the information easier to read and compare.", 
+    "weatherDecisionP2": "When opening the application, the browser’s native Geolocation API automatically identifies the current location and displays the weather information. If the user denies permission or wants to search for another location, the manual city search remains available through the form, with support for both clicking the button and pressing the Enter key.",
+    "weatherDecisionP3": "To make the interface more engaging, I integrated the Unsplash API to dynamically update the background with a real image of the searched city. Instead of displaying only data inside a traditional card, the application creates a visual connection with the selected location.",
+    "weatherDecisionP4": "I also implemented a switch between the current weather and the forecast for the next five days. The forecast was structured using CSS Grid, organizing dates and maximum and minimum temperatures into columns to make the information easier to read and compare.", 
 
-    "weatherChallangesP1": "One of the main challenges was ensuring content readability across different background images. Since each city has photos with different visual characteristics, it was necessary to create a consistent solution using translucent overlays and text-shadow to maintain proper contrast.",
-    "weatherChallangesP2": "Another challenge was handling different application states without compromising the user experience. Loading states and specific messages were implemented for situations such as a city not being found or denied geolocation permission.",
-    "weatherChallangesP3": "During development, I also worked on handling data received from APIs, organizing asynchronous requests, and updating application states as new searches were performed.",
+    "weatherChallengesP1": "One of the main challenges was ensuring content readability across different background images. Since each city has photos with different visual characteristics, it was necessary to create a consistent solution using translucent overlays and text-shadow to maintain proper contrast.",
+    "weatherChallengesP2": "Another challenge was handling different application states without compromising the user experience. Loading states and specific messages were implemented for situations such as a city not being found or denied geolocation permission.",
+    "weatherChallengesP3": "During development, I also worked on handling data received from APIs, organizing asynchronous requests, and updating application states as new searches were performed.",
 
     "weatherTechP1": "The project was developed with React and JavaScript, using Vite for application setup and Tailwind CSS for styling.",
     "weatherTechP2": "The application consumes the WeatherAPI to retrieve weather data and the Unsplash API to load dynamic images of the searched cities.",
@@ -115,13 +110,13 @@
     "tasksContextP1": "",
     "tasksContextP2": "",
     
-    "tasksDescisionP1": "",
-    "tasksDescisionP2": "",
-    "tasksDescisionP3": "", 
+    "tasksDecisionP1": "",
+    "tasksDecisionP2": "",
+    "tasksDecisionP3": "", 
     
-    "tasksChallangesP1": "",
-    "tasksChallangesP2": "",
-    "tasksChallangesP3": "",
+    "tasksChallengesP1": "",
+    "tasksChallengesP2": "",
+    "tasksChallengesP3": "",
     
     "tasksTechP1": "",
     "tasksTechP2": ""

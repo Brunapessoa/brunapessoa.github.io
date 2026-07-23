@@ -1,5 +1,5 @@
 import profilePhoto from "../assets/photo-1.jpg"
-import profilePhoto2 from "../assets/photo-5.jpg"
+import profilePhoto2 from "../assets/photo-9.jpg"
 import { LanguageContext } from "../context/LanguageContext"
 import { useContext } from "react"
 
@@ -41,7 +41,7 @@ function About() {
 
             <div className="flex flex-col gap-5 md:grid md:grid-cols-[200px_1fr] md:gap-y-5 md:gap-x-15 md:items-center lg:grid-cols-[260px_1fr] md:px-10">
            
-                <p className="lg:mt-5">
+                <p className="lg:mt-8">
                     {translations.myJourneyP1} 
                 </p>
                 <div className="self-center photo-glow w-55 my-5 md:row-span-3 md:order-first lg:w-64">

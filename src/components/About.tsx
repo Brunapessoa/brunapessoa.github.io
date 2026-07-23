@@ -1,4 +1,5 @@
 import profilePhoto from "../assets/photo-1.jpg"
+import profilePhoto2 from "../assets/photo-5.jpg"
 import { LanguageContext } from "../context/LanguageContext"
 import { useContext } from "react"
 
@@ -22,7 +23,7 @@ function About() {
                 <p className="font-bold border-l-2 border-accent pl-5">
                 {translations.aboutP1}
                 </p>
-                <div className="self-center photo-glow w-55 my-5 md:row-span-2 lg:w-64">
+                <div className="self-center photo-glow w-55 my-5 md:row-span-2 lg:w-64 lg:items-center">
                     <img src={profilePhoto} alt="Bruna Pessoa" className="rounded-2xl w-full"/>
                 </div>
                 <div className="flex flex-col gap-5">
@@ -38,21 +39,22 @@ function About() {
             </div>
             <h3 className="font-display text-accent text-3xl font-semibold md:px-10">{translations.myJourney}</h3>
 
-            <div className="flex flex-col gap-5 md:grid md:grid-cols-[200px_1fr] md:gap-x-15 md:gap-y-5 md:items-start lg:grid-cols-[260px_1fr] md:px-10">
+            <div className="flex flex-col gap-5 md:grid md:grid-cols-[200px_1fr] md:gap-y-5 md:gap-x-15 md:items-center lg:grid-cols-[260px_1fr] md:px-10">
            
-                <p>{translations.myJourneyP1} 
+                <p className="lg:mt-5">
+                    {translations.myJourneyP1} 
                 </p>
-                <div className="self-center photo-glow w-55 my-5 md:row-span-2 md:order-first lg:w-64">
-                    <img src={profilePhoto} alt="Bruna Pessoa" className="rounded-2xl w-full"/>
+                <div className="self-center photo-glow w-55 my-5 md:row-span-3 md:order-first lg:w-64">
+                    <img src={profilePhoto2} alt="Bruna Pessoa" className="rounded-2xl w-full "/>
                 </div>
-                <div className="flex flex-col gap-5 md:col-start-2">
+                 <div className="flex flex-col gap-5 md:col-start-2">
                     <p>
                     {translations.myJourneyP2} 
                     </p>
                     <p>
                     {translations.myJourneyP3} 
                     </p>
-                </div>
+                 </div> 
             </div>
             <div className="flex flex-wrap justify-start">
                 <span className="bg-bg-card border border-border py-2 px-4 rounded-full my-2 mx-2 hover:border-accent hover:text-text-main">HTML5</span>

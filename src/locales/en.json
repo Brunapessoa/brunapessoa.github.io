@@ -17,7 +17,7 @@
     "myJourneyP2": "Since then, I have completed several courses, graduated from a one-year Full-Stack Development bootcamp, and I am currently pursuing a degree in Systems Analysis and Development.",
     "myJourneyP3": "When I build projects, I think beyond the interface itself. I care about creating applications that are intuitive, responsive, and enjoyable to use—not just visually appealing.",
 
-    "projectBtn": "View project",
+    "projectBtn": "View Project",
     "processBtn": "View Process",
     
     "planBDesc": "Workout tracking app",
@@ -69,7 +69,7 @@
     
     "recipesDescPhrase": "Find your next favorite recipe",
 
-    "recipesContextP1": "Favorite Recipes was created as an opportunity to apply TypeScript in a real-world project. The goal was to build a functional application, using static typing in a practical context with data from a public API, optional properties, and React integration. ",
+    "recipesContextP1": "Favorite Recipes was created as an opportunity to apply TypeScript in a real-world project. The goal was to build a functional application, using static typing in a practical context with data from a public API, optional properties, and React integration.",
     "recipesContextP2": "The project also explored asynchronous request handling and the development of a responsive interface for searching and browsing recipes.",
 
     "recipesDecisionP1": "The application was designed to provide a simple and straightforward search experience. Users can search for recipes by name, and the results are displayed in a responsive card grid containing the recipe image, category, and origin.",

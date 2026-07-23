@@ -101,7 +101,7 @@
     "weatherChallengesP3": "Tijdens de ontwikkeling heb ik ook gewerkt aan het verwerken van gegevens uit de API’s, het organiseren van asynchrone verzoeken en het bijwerken van de applicatiestatus wanneer nieuwe zoekopdrachten werden uitgevoerd.",
 
     "weatherTechP1": "Het project is ontwikkeld met React en JavaScript, waarbij Vite werd gebruikt voor de configuratie van de applicatie en Tailwind CSS voor de styling.",
-    "weatherTechP2": "De applicatie gebruikt de WeatherAPI om weergegevens op te halen en de Unsplash API om dynamische afbeeldingen van de opgezochte steden te laden. ",
+    "weatherTechP2": "De applicatie gebruikt de WeatherAPI om weergegevens op te halen en de Unsplash API om dynamische afbeeldingen van de opgezochte steden te laden.",
     "weatherTechP3": "Het state management werd uitgevoerd met de hooks useState en useEffect, die verantwoordelijk zijn voor het beheren van geolocatie, zoekopdrachten, asynchrone verzoeken en het wisselen tussen het huidige weer en de vijfdaagse voorspelling.",      
     
     "tasksDescPhrase": "Eenvoudige taken, efficiënt georganiseerd",

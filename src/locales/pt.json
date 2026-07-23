@@ -46,7 +46,7 @@
     "planBContextP2": "Eu costumava organizar meus exercícios usando um PDF no celular, mas atualizar pesos, alterar exercícios e acompanhar minha evolução acabava sendo um processo manual.",
     "planBContextP3": "Depois de testar algumas alternativas, percebi que muitos aplicativos tentavam resolver tudo ao mesmo tempo, adicionando funcionalidades que eu não precisava. Eu queria algo diferente: uma ferramenta simples, rápida e focada no essencial.",
     "planBContextP4": "Então decidi construir minha própria solução.",
-    "planBContextP5": "Assim que nasceu o Plan B.",
+    "planBContextP5": "E assim nasceu o Plan B.",
     "planBContextP6": "O nome representa a ideia por trás do projeto: o B também é de Básico. A proposta nunca foi criar o aplicativo mais completo do mercado, mas sim uma solução simples, funcional e bem executada — porque, muitas vezes, um básico bem feito é mais útil do que um plano perfeito que nunca sai do papel.",
 
     "planBDecisionP1": "O Plan B foi pensado como um aplicativo para uso durante o treino, por isso a interface foi desenvolvida seguindo uma abordagem mobile-first.", 
@@ -70,7 +70,7 @@
         
     "recipesDescPhrase": "Encontre sua próxima receita favorita",
 
-    "recipesContextP1": "O Favorite Recipes nasceu da decisão de aplicar TypeScript em um projeto real. O objetivo era construir uma aplicação funcional, utilizando tipagem em um contexto prático com dados de uma API pública, propriedades opcionais e integração com React. ",
+    "recipesContextP1": "O Favorite Recipes nasceu da decisão de aplicar TypeScript em um projeto real. O objetivo era construir uma aplicação funcional, utilizando tipagem em um contexto prático com dados de uma API pública, propriedades opcionais e integração com React.",
 
     "recipesContextP2": "O projeto também explorou o gerenciamento de requisições assíncronas e a construção de uma interface responsiva para busca e visualização de receitas.",
 
@@ -118,7 +118,6 @@
     "tasksDecisionP1": "A aplicação permite adicionar tarefas com título e descrição, alterar seu status de conclusão e remover itens individualmente. As tarefas são exibidas em uma interface simples e responsiva, com feedback visual para itens concluídos.",
     "tasksDecisionP2": "Cada tarefa também possui uma página de detalhes, permitindo que o usuário visualize suas informações completas sem perder a organização da lista principal.",
     "tasksDecisionP3": "Para estruturar a aplicação, utilizei componentes separados e centralizei o gerenciamento do estado principal, passando as funções de atualização como propriedades para os componentes filhos.", 
-
     "tasksDecisionP4": "A página de detalhes foi implementada utilizando React Router. Ao selecionar uma tarefa, o usuário é direcionado para uma rota específica onde pode visualizar informações como título e descrição, com os dados da tarefa sendo acessados através de parâmetros da URL.",
     "tasksDecisionP5": "A persistência das informações foi realizada utilizando localStorage, garantindo que as tarefas permanecessem salvas mesmo após atualizar a página.",
     

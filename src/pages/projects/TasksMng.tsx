@@ -75,14 +75,11 @@ function TasksMng() {
                         <p>{translations.tasksChallengesP3}</p>
                     </div>
                 </div>
-                {/* <div className="flex flex-col gap-20 md:grid md:grid-cols-2 md:items-center"> */}
-                    {/* <img src="" alt="" className=" mx-auto rounded-lg border border-border w-62 md:order-last" /> */}
                     <div className="flex flex-col gap-5 border-l-2 border-accent pl-5">
                         <h2 className="font-bold font-sans text-text-main text-2xl">{translations.technologies}</h2>
                         <p>{translations.tasksTechP1}</p>
                         <p>{translations.tasksTechP2}</p>
                     </div>
-                {/* </div> */}
                 <div className="flex flex-row justify-start">
                     <Link to="/projects/Weather" className="font-semibold hover:text-accent">← Weatherly</Link>
                 </div>

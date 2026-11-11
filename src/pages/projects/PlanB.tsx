@@ -37,7 +37,7 @@ function PlanB() {
                         <span className="flex items-center gap-2 bg-bg-card  border border-border py-1.5 px-3 rounded-full hover:border-accent hover:text-text-main"><img src={jsIcon} alt="JavaScript" className="w-4"/> JavaScript</span>
                     </div>
                     <div className="flex flex-row gap-4 my-2">
-                        <a href="https://brunapessoa.github.io/b-plan-training/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://brunapessoa.github.io/plan-b-training/" target="_blank" rel="noopener noreferrer">
                             <button className="px-3 py-1.5 border-2 rounded-lg bg-accent border-accent text-black text-sm/7 font-semibold hover:cursor-pointer hover:opacity-90">{translations.projectBtn}</button>
                         </a>
                         <a href="https://github.com/Brunapessoa/b-plan-training" target="_blank" rel="noopener noreferrer">

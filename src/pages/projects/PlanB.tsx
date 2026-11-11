@@ -40,7 +40,7 @@ function PlanB() {
                         <a href="https://brunapessoa.github.io/plan-b-training/" target="_blank" rel="noopener noreferrer">
                             <button className="px-3 py-1.5 border-2 rounded-lg bg-accent border-accent text-black text-sm/7 font-semibold hover:cursor-pointer hover:opacity-90">{translations.projectBtn}</button>
                         </a>
-                        <a href="https://github.com/Brunapessoa/b-plan-training" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Brunapessoa/plan-b-training" target="_blank" rel="noopener noreferrer">
                             <button className="bg-accent-soft px-3 py-1.5 border-2 rounded-lg border-border text-text-muted text-sm/7 text-shadow-md font-semibold hover:border-accent hover:bg-accent-soft hover:text-accent hover:cursor-pointer">{translations.onGHBtn}</button>
                         </a>
                     </div>

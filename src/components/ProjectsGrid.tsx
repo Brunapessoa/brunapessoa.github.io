@@ -23,7 +23,7 @@ function ProjectsGrid() {
             
             <div className="flex flex-col gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:auto-rows-70">
                 <div className="lg:col-span-2 lg:row-span-2" >
-                    <ProjectCard titleProject="Plan B" description={translations.planBDesc} projectImage={planBImg} processRoute="/projects/PlanB" projectURL="https://brunapessoa.github.io/b-plan-training/"/>
+                    <ProjectCard titleProject="Plan B" description={translations.planBDesc} projectImage={planBImg} processRoute="/projects/PlanB" projectURL="https://brunapessoa.github.io/plan-b-training/"/>
                 </div>         
 
                 <ProjectCard titleProject="Favorite Recipes" description={translations.recipeDesc} projectImage={recipeImg} processRoute="/projects/Recipes" projectURL="https://brunapessoa.github.io/recipes/"/>

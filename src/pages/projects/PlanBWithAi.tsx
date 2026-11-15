@@ -13,7 +13,7 @@ import genErrorPlan from "../../assets/projects/planB-w-ai/generating-error-plan
 // import tableImg from "../../assets/projects/planB-w-ai/table-generated.jpeg"
 
 
-function Recipes() {
+function PlanBWithAi() {
 
     const langContext = useContext(LanguageContext)
         
@@ -97,4 +97,4 @@ function Recipes() {
     
 }
 
-export default Recipes;
+export default PlanBWithAi;

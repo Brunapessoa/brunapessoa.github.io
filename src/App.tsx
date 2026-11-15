@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home"
+import PlanBWithAi from "./pages/projects/PlanBWithAi"
 import PlanB from "./pages/projects/PlanB"
 import Recipes from "./pages/projects/Recipes"
 import Weather from "./pages/projects/Weather"
@@ -12,6 +13,7 @@ function App() {
     <div className="bg-bg-deep text-text-muted bg-gradient-main">  
       <Routes>
         <Route path="/" element={<Home />}/>
+        <Route path="/projects/PlanBWithAi" element={<PlanBWithAi />}/>
         <Route path="/projects/PlanB" element={<PlanB />}/>
         <Route path="/projects/Recipes" element={<Recipes />}/>
         <Route path="/projects/Weather" element={<Weather />}/>

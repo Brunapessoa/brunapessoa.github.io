@@ -100,7 +100,8 @@ function PlanB() {
                     <p>{translations.planBNextP3}</p>
                     <p>{translations.planBNextP4}</p>
                 </div>
-                <div className="flex justify-end">
+                <div className="flex flex-row justify-between">
+                    <Link to="/projects/PlanBWithAi" className="font-semibold hover:text-accent ">← Plan B with AI</Link>
                     <Link to="/projects/Recipes" className="font-semibold hover:text-accent">Favorite Recipes →</Link>
                 </div>
             </main>

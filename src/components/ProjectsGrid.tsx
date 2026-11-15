@@ -31,10 +31,10 @@ function ProjectsGrid() {
 
                 <ProjectCard titleProject="Favorite Recipes" description={translations.recipeDesc} projectImage={recipeImg} processRoute="/projects/Recipes" projectURL="https://brunapessoa.github.io/recipes/"/>
 
+                <ProjectCard titleProject="Weatherly" description={translations.weatherDesc}projectImage={weatherImg} processRoute="/projects/Weather" projectURL="https://brunapessoa.github.io/weather/"/>
 
                 <ProjectCard titleProject="Tasks Management" description={translations.tasksDesc} projectImage={todolistImg} processRoute="/projects/TasksMng" projectURL="https://brunapessoa.github.io/to-do-list-react/"/>
             
-                <ProjectCard titleProject="Weatherly" description={translations.weatherDesc}projectImage={weatherImg} processRoute="/projects/Weather" projectURL="https://brunapessoa.github.io/weather/"/>
             </div>
 
         </section>

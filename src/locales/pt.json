@@ -124,6 +124,20 @@
     "tasksChallengesP3": "A navegação entre páginas utilizando React Router e o uso de parâmetros da URL foram importantes para estruturar uma aplicação com múltiplas rotas e diferentes visualizações.",
     
     "tasksTechP1": "O projeto foi desenvolvido com React, utilizando Vite para a configuração da aplicação, React Router para navegação e Tailwind CSS para a estilização.",
-    "tasksTechP2": "Foram utilizados os hooks useState, useEffect, useNavigate e useSearchParams para gerenciamento de estado, persistência de dados, navegação e comunicação entre páginas."
+    "tasksTechP2": "Foram utilizados os hooks useState, useEffect, useNavigate e useSearchParams para gerenciamento de estado, persistência de dados, navegação e comunicação entre páginas.",
 
+    "planBAIDesc": "Gerador de treinos com IA",
+    "planBAIDescPhrase": "Seu plano de treino, gerado por IA",
+    "planBAIContextP1": "O Plan B with AI nasceu como uma extensão do Plan B, meu app de controle de treinos. No Plan B, o usuário escreve cada treino à mão. Eu queria ver como um modelo de IA poderia criar um primeiro plano a partir de algumas escolhas simples.",
+    "planBAIContextP2": "O projeto também foi uma forma de aprender a integrar um modelo de linguagem (LLM) a uma aplicação React: escrever um bom prompt, receber dados estruturados e mostrá-los na interface.",
+    "planBAIContextP3": "O plano gerado usa a mesma estrutura do Plan B (exercício, peso e repetições), para que no futuro possa ser enviado direto para o app original.",
+    "planBAIDecisionP1": "O usuário escolhe quatro opções: objetivo, nível, dias de treino por semana e equipamento. O formulário oferece apenas opções fixas, o que mantém o prompt previsível.",
+    "planBAIDecisionP2": "A decisão mais importante foi onde chamar a IA. Uma chave de API usada no frontend fica visível para qualquer pessoa no navegador. Por isso, hospedei o projeto na Vercel e criei uma função serverless que guarda a chave do Gemini nas variáveis de ambiente. O navegador só chama o meu próprio endpoint, /api/generate, e nunca vê a chave.",
+    "planBAIDecisionP3": "Para tornar a resposta confiável, peço ao Gemini uma resposta em JSON e envio um JSON schema com a estrutura exata de que preciso. O prompt lista as escolhas da pessoa e regras claras: quantos treinos criar, como nomeá-los, pesos em kg e repetições no formato \"séries x repetições\".",
+    "planBAIDecisionP4": "Depois de gerado, o plano substitui o formulário e aparece em tabelas no estilo do Plan B. Um botão volta para o formulário com as escolhas anteriores ainda selecionadas.",
+    "planBAIChallengesP1": "O backend não pode confiar nos dados que recebe. Qualquer pessoa pode chamar o endpoint sem usar o formulário, então a função confere cada valor com uma lista de opções permitidas antes de montar o prompt. Isso também protege contra prompt injection.",
+    "planBAIChallengesP2": "Serviços externos de IA podem falhar ou ficar sobrecarregados. Quando o Gemini retorna um erro, como o 503, o backend o captura e devolve uma mensagem clara, que a interface mostra com um botão \"Try again\".",
+    "planBAIChallengesP3": "Modelos de IA nem sempre seguem todas as regras à risca. Testar o resultado várias vezes me ajudou a ajustar o prompt e a decidir quais regras importam mais.",
+    "planBAITechP1": "O frontend foi desenvolvido com React, TypeScript e Vite, e estilizado com Tailwind CSS numa abordagem mobile first.",
+    "planBAITechP2": "O backend é uma função serverless da Vercel escrita em TypeScript. Ela usa o SDK @google/genai para chamar a API do Gemini, com a chave guardada nas variáveis de ambiente da Vercel."
 }

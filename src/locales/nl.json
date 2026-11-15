@@ -119,6 +119,21 @@
     "tasksChallengesP3": "Navigatie tussen pagina’s met React Router en het gebruik van URL-parameters waren belangrijke onderdelen bij het opbouwen van een applicatie met meerdere routes en verschillende weergaven.",
     
     "tasksTechP1": "Het project is ontwikkeld met React, waarbij Vite werd gebruikt voor de configuratie van de applicatie, React Router voor navigatie en Tailwind CSS voor de styling.",
-    "tasksTechP2": "De hooks useState, useEffect, useNavigate en useSearchParams werden gebruikt voor state management, gegevensopslag, navigatie en communicatie tussen pagina’s."
+    "tasksTechP2": "De hooks useState, useEffect, useNavigate en useSearchParams werden gebruikt voor state management, gegevensopslag, navigatie en communicatie tussen pagina’s.",
+
+    "planBAIDesc": "AI-workoutgenerator",
+    "planBAIDescPhrase": "Jouw trainingsschema, gemaakt door AI",
+    "planBAIContextP1": "Plan B with AI begon als een uitbreiding van Plan B, mijn app om trainingen bij te houden. In Plan B schrijft de gebruiker elke training met de hand. Ik wilde zien hoe een AI-model een eerste schema kon maken op basis van een paar eenvoudige keuzes.",
+    "planBAIContextP2": "Het project was ook een manier om te leren hoe je een taalmodel (LLM) integreert in een React-applicatie: een goede prompt schrijven, gestructureerde data ontvangen en die in de interface tonen.",
+    "planBAIContextP3": "Het gegenereerde schema gebruikt dezelfde structuur als Plan B (oefening, gewicht en herhalingen), zodat het in de toekomst direct naar de originele app kan worden gestuurd.",
+    "planBAIDecisionP1": "De gebruiker kiest vier opties: doel, niveau, trainingsdagen per week en materiaal. Het formulier biedt alleen vaste opties, waardoor de prompt voorspelbaar blijft.",
+    "planBAIDecisionP2": "De belangrijkste beslissing was waar de AI wordt aangeroepen. Een API-sleutel die in de frontend wordt gebruikt, is voor iedereen zichtbaar in de browser. Daarom heb ik het project op Vercel gehost en een serverless functie gemaakt die de Gemini-sleutel in de environment variables bewaart. De browser roept alleen mijn eigen endpoint aan, /api/generate, en ziet de sleutel nooit.",
+    "planBAIDecisionP3": "Om het antwoord betrouwbaar te maken, vraag ik Gemini om JSON en stuur ik een JSON schema mee met precies de structuur die ik nodig heb. De prompt bevat de keuzes van de gebruiker en duidelijke regels: hoeveel trainingen er gemaakt moeten worden, hoe ze heten, gewichten in kg en herhalingen in het formaat \"sets x herhalingen\".",
+    "planBAIDecisionP4": "Nadat het schema is gegenereerd, vervangt het het formulier en wordt het getoond in tabellen in de stijl van Plan B. Een knop brengt de gebruiker terug naar het formulier, met de vorige keuzes nog geselecteerd.",
+    "planBAIChallengesP1": "De backend kan de ontvangen data niet zomaar vertrouwen. Iedereen kan het endpoint aanroepen zonder het formulier te gebruiken, dus de functie controleert elke waarde tegen een lijst met toegestane opties voordat de prompt wordt opgebouwd. Dit beschermt ook tegen prompt injection.",
+    "planBAIChallengesP2": "Externe AI-diensten kunnen falen of overbelast raken. Als Gemini een fout teruggeeft, zoals een 503, vangt de backend die op en stuurt een duidelijke melding terug, die de interface toont met een knop \"Try again\".",
+    "planBAIChallengesP3": "AI-modellen volgen niet altijd elke regel precies. Door de output vaak te testen, kon ik de prompt aanpassen en bepalen welke regels het belangrijkst zijn.",
+    "planBAITechP1": "De frontend is gebouwd met React, TypeScript en Vite, en gestyled met Tailwind CSS volgens een mobile-first aanpak.",
+    "planBAITechP2": "De backend is een serverless functie op Vercel, geschreven in TypeScript. Die gebruikt de @google/genai SDK om de Gemini API aan te roepen, met de sleutel opgeslagen in de environment variables van Vercel."
 
 }
